@@ -128,6 +128,33 @@ for n, f in photos.items():
 for a in additions:
     a["img"] = pkeys.get(a["srckey"]) or pkeys.get(key(a["name"]))
 
+ALIAS = {
+    "Monstera adansoni mint": "monstera adansori mint green",
+    "Philodendron Congo hybrid": "green congo hybrid philodendron",
+    "Alocasia black Velvet pink variegata": "Alocasia reginula 'Black Velvet Pink Variegata",
+}
+for a in additions:
+    if not a["img"] and a["name"] in ALIAS:
+        a["img"] = pkeys.get(key(ALIAS[a["name"]]))
+for k, p in catkeys.items():
+    for it in p:
+        nm = it.get("name", "")
+        if not it.get("img") and nm in ALIAS:
+            f = pkeys.get(key(ALIAS[nm]))
+            if f:
+                it["img"] = "/home/user/workspace/" + f
+                it["photo_source"] = "v22"
+
+REF = json.load(open("/home/user/workspace/photo_credits.json"))
+refkeys = {key(n): v for n, v in REF.items()}
+for a in additions:
+    if not a["img"]:
+        for rk, v in refkeys.items():
+            if set(rk.split()) <= set(key(a["name"]).split()):
+                a["img"] = v["file"]
+                a["ref"] = True
+                break
+
 # collapse duplicates created by name normalisation (golden bone / bonee, waroc / warocqueanum)
 merged = {}
 SPELLDUP = {"bonee": "bone"}

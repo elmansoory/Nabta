@@ -93,7 +93,8 @@
   "pkg": 1,
   "lo": 8.0,
   "hi": 8.0,
-  "img": null
+  "img": "ref_photos/alocasia_longiloba_silver.jpg",
+  "ref": true
  },
  {
   "name": "Alocasia low rider",
@@ -117,7 +118,8 @@
   "pkg": 1,
   "lo": 50.0,
   "hi": 50.0,
-  "img": null
+  "img": "ref_photos/alocasia_micholitziana_frydek.jpg",
+  "ref": true
  },
  {
   "name": "Alocasia nebula",
@@ -133,7 +135,8 @@
   "pkg": 1,
   "lo": 20.0,
   "hi": 20.0,
-  "img": null
+  "img": "ref_photos/alocasia_regal_shield.jpg",
+  "ref": true
  },
  {
   "name": "Alocasia reginula 'Black Velvet Pink Variegata'",
@@ -733,7 +736,8 @@
   "pkg": 1,
   "lo": null,
   "hi": null,
-  "img": null
+  "img": "ref_photos/echeveria_agavoides_varieties.jpg",
+  "ref": true
  },
  {
   "name": "Episcia smoke white",
@@ -869,7 +873,7 @@
   "pkg": 1,
   "lo": 9.0,
   "hi": 9.0,
-  "img": null
+  "img": "v22_photos/p10_13.jpg"
  },
  {
   "name": "Monstera Adansoni Variegata",
@@ -1109,7 +1113,7 @@
   "pkg": 1,
   "lo": 14.0,
   "hi": 14.0,
-  "img": null
+  "img": "v22_photos/p08_04.jpg"
  },
  {
   "name": "Philodendron erubescens 'Strawberry Shake'",

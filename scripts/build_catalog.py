@@ -154,6 +154,12 @@ def card(x, y, d):
         c.setFillColor(LIGHT); c.rect(x + .7, y + CH - ih, CW - 1.4, ih, fill=1, stroke=0)
         c.setFillColor(GREY); c.setFont("EN", 8)
         c.drawCentredString(x + CW / 2, y + CH - ih / 2, "no photo")
+    if d.get("ref"):
+        bw = 22 * mm
+        c.setFillColor(colors.Color(0, 0, 0, alpha=0.55))
+        c.roundRect(x + CW - bw - 3 * mm, y + CH - 7 * mm, bw, 4.2 * mm, 1 * mm, fill=1, stroke=0)
+        c.setFillColor(colors.white); c.setFont("EN", 5.6)
+        c.drawCentredString(x + CW - bw / 2 - 3 * mm, y + CH - 5.6 * mm, "REFERENCE PHOTO")
     # name (wrap 2 lines)
     name = d["name"].replace("\n", " "); 
     c.setFillColor(colors.HexColor("#22332A"))
@@ -358,6 +364,27 @@ while i < len(adds):
             c.setFont("EN", 8)
         y -= 6 * mm; i += 1
     footer(); c.showPage(); page += 1
+
+
+# ---------- photo credits ----------
+creds = json.load(open("/home/user/workspace/photo_credits.json"))
+c.setFillColor(GREEN); c.rect(0, H - 22 * mm, W, 22 * mm, fill=1, stroke=0)
+c.setFillColor(colors.white); c.setFont("ENB", 15); c.drawString(M, H - 13 * mm, "Photo Credits")
+c.setFillColor(colors.white); c.setFont("ARB", 12)
+c.drawRightString(W - M, H - 13 * mm, ar("مصادر الصور"))
+ty = H - 34 * mm
+c.setFillColor(GREY); c.setFont("EN", 8.5)
+c.drawString(M, ty, "All product photos are supplied by Nabta / Price List v22. The following reference photos are")
+ty -= 4.5 * mm
+c.drawString(M, ty, "species references from Wikimedia Commons, reused under their respective licences:")
+ty -= 9 * mm
+for n, v in sorted(creds.items()):
+    c.setFillColor(colors.HexColor("#22332A")); c.setFont("ENB", 9)
+    c.drawString(M, ty, n[:70]); ty -= 4.5 * mm
+    c.setFillColor(GREY); c.setFont("EN", 7.5)
+    c.drawString(M + 4 * mm, ty, f"{v.get('author') or 'Unknown'} - {v.get('license')} - {v.get('source')}")
+    ty -= 8 * mm
+footer(); c.showPage(); page += 1
 
 c.save()
 
