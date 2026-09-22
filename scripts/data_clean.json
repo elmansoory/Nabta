@@ -1,0 +1,3605 @@
+[
+ [
+  "HDR",
+  "Aglonema",
+  1
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Aglaonema 'Red Vein'",
+   "genus": "Aglaonema",
+   "pkg": 1,
+   "usd": 3,
+   "egp": 156,
+   "img": "/tmp/x/xl/media/image1.png"
+  },
+  3
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Aglaonema 'A019'",
+   "genus": "Aglaonema",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image2.png"
+  },
+  4
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Aglaonema 'A024'",
+   "genus": "Aglaonema",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image3.png"
+  },
+  5
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Aglaonema 'A029'",
+   "genus": "Aglaonema",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image4.png"
+  },
+  6
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Aglaonema Red Angel",
+   "genus": "Aglaonema",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image5.png"
+  },
+  7
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Aglaonema sp.",
+   "genus": "Aglaonema",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image6.png"
+  },
+  8
+ ],
+ [
+  "HDR",
+  "Alocasia",
+  9
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Helian'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image7.png"
+  },
+  10
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia amazonica poly variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 85,
+   "egp": 4420,
+   "img": "/tmp/x/xl/media/image8.png"
+  },
+  11
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia baginda Dragon Scale variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image9.png"
+  },
+  12
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Baginda 'Silver Dragon'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image10.png"
+  },
+  13
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia dragon scale albo",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image11.png"
+  },
+  14
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Bat Wing",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 6,
+   "egp": 312,
+   "img": "/tmp/x/xl/media/image12.png"
+  },
+  15
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Bisma Platinum",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 6,
+   "egp": 312,
+   "img": "/tmp/x/xl/media/image13.png"
+  },
+  16
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Black velvet'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image14.png"
+  },
+  17
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia black Velvet pink variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 120,
+   "egp": 6240,
+   "img": null
+  },
+  18
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia chantrieri pink variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image15.png"
+  },
+  19
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia chantrieri variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image16.png"
+  },
+  20
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia cucullata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image17.png"
+  },
+  21
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia cuprea pink variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 700,
+   "egp": 36400,
+   "img": "/tmp/x/xl/media/image18.png"
+  },
+  22
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Dragon Scale'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image19.png"
+  },
+  23
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia dragon scale variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image20.png"
+  },
+  24
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Dwarf Amazonica'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image21.png"
+  },
+  25
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Frydek'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 6,
+   "egp": 312,
+   "img": "/tmp/x/xl/media/image22.png"
+  },
+  26
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Frydek variegata white",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 65,
+   "egp": 3380,
+   "img": "/tmp/x/xl/media/image23.png"
+  },
+  27
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Frydek variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 65,
+   "egp": 3380,
+   "img": "/tmp/x/xl/media/image24.png"
+  },
+  28
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Gageana Aurea",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 65,
+   "egp": 3380,
+   "img": "/tmp/x/xl/media/image25.png"
+  },
+  29
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia gageana variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 65,
+   "egp": 3380,
+   "img": "/tmp/x/xl/media/image26.png"
+  },
+  30
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Heart Balloon' variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 130,
+   "egp": 6760,
+   "img": "/tmp/x/xl/media/image27.png"
+  },
+  31
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Jacklyn'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 6,
+   "egp": 312,
+   "img": "/tmp/x/xl/media/image28.png"
+  },
+  32
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Maharani Albo",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 150,
+   "egp": 7800,
+   "img": "/tmp/x/xl/media/image29.png"
+  },
+  33
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Melo Albo",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 250,
+   "egp": 13000,
+   "img": "/tmp/x/xl/media/image30.png"
+  },
+  34
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Ninja'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 65,
+   "egp": 3380,
+   "img": "/tmp/x/xl/media/image31.png"
+  },
+  35
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia odora 'Batik' variegated",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 120,
+   "egp": 6240,
+   "img": "/tmp/x/xl/media/image32.png"
+  },
+  36
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Pink Dragon'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image33.png"
+  },
+  37
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia plumbea",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 6,
+   "egp": 312,
+   "img": "/tmp/x/xl/media/image34.png"
+  },
+  38
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Portora'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 65,
+   "egp": 3380,
+   "img": "/tmp/x/xl/media/image35.png"
+  },
+  39
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia pseudosanderiana pink variegated",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image36.png"
+  },
+  40
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia sanderiana 'Nobilis'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 200,
+   "egp": 10400,
+   "img": "/tmp/x/xl/media/image37.png"
+  },
+  41
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia scalprum",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image38.png"
+  },
+  42
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Scalprum variegata white",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 450,
+   "egp": 23400,
+   "img": "/tmp/x/xl/media/image39.png"
+  },
+  43
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia silver albo",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 250,
+   "egp": 13000,
+   "img": "/tmp/x/xl/media/image40.png"
+  },
+  44
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Silver Dragon Albo",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 250,
+   "egp": 13000,
+   "img": "/tmp/x/xl/media/image41.png"
+  },
+  45
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia Silver Dragon",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image42.png"
+  },
+  46
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia variegated Maharani albo",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 150,
+   "egp": 7800,
+   "img": "/tmp/x/xl/media/image43.png"
+  },
+  47
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Wentii'",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image44.png"
+  },
+  48
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Yucatan Princess' pink",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 90,
+   "egp": 4680,
+   "img": "/tmp/x/xl/media/image45.png"
+  },
+  49
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia 'Yucatan Princess' pink variegata",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image46.png"
+  },
+  50
+ ],
+ [
+  "HDR",
+  "Anthurium",
+  51
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium ace of spades X papillilaminum",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image47.png"
+  },
+  52
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium black emerald x michelle",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 50,
+   "egp": 2600,
+   "img": "/tmp/x/xl/media/image48.png"
+  },
+  53
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium hybrid DocBlock",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 40,
+   "egp": 2080,
+   "img": "/tmp/x/xl/media/image49.png"
+  },
+  54
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium bloody night x DP",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 45,
+   "egp": 2340,
+   "img": "/tmp/x/xl/media/image50.png"
+  },
+  55
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium 'BVIT'",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 45,
+   "egp": 2340,
+   "img": "/tmp/x/xl/media/image51.png"
+  },
+  56
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Carla blackiae valora",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 90,
+   "egp": 4680,
+   "img": "/tmp/x/xl/media/image52.png"
+  },
+  57
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Carla x Bvep",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 80,
+   "egp": 4160,
+   "img": null
+  },
+  58
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium clarinervium",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 40,
+   "egp": 2080,
+   "img": "/tmp/x/xl/media/image53.png"
+  },
+  59
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium clarinervium hybrid 'Sulanjana'",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 40,
+   "egp": 2080,
+   "img": "/tmp/x/xl/media/image54.png"
+  },
+  60
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium crystallinum",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image55.png"
+  },
+  61
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium crystallinum Hope x Anthurium magnificum",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image56.png"
+  },
+  62
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Dark Handsome",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image57.png"
+  },
+  63
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Dockblok x Michelle",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 30,
+   "egp": 1560,
+   "img": "/tmp/x/xl/media/image58.png"
+  },
+  64
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium 'Dorayaki'",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image59.png"
+  },
+  65
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Dressleri x mystiq",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 90,
+   "egp": 4680,
+   "img": "/tmp/x/xl/media/image60.png"
+  },
+  66
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Lucu x mystiq",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 40,
+   "egp": 2080,
+   "img": "/tmp/x/xl/media/image61.png"
+  },
+  67
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium luxurians",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": "/tmp/x/xl/media/image62.png"
+  },
+  68
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium michelle x Zara michelle",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": null
+  },
+  69
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium moodeanum",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image63.png"
+  },
+  70
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium mystiq mutation",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 50,
+   "egp": 2600,
+   "img": "/tmp/x/xl/media/image64.png"
+  },
+  71
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Night Dragon",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image65.png"
+  },
+  72
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Papi black stone",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 90,
+   "egp": 4680,
+   "img": "/tmp/x/xl/media/image66.png"
+  },
+  73
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Papi x Bassae",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 6,
+   "egp": 312,
+   "img": "/tmp/x/xl/media/image67.png"
+  },
+  74
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Papi x Zara michelle",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 90,
+   "egp": 4680,
+   "img": "/tmp/x/xl/media/image68.png"
+  },
+  75
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium 'Peitchi'",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image69.png"
+  },
+  76
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium podophyllum",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 65,
+   "egp": 3380,
+   "img": "/tmp/x/xl/media/image70.png"
+  },
+  77
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Red spider",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 90,
+   "egp": 4680,
+   "img": "/tmp/x/xl/media/image71.png"
+  },
+  78
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Red Tiger",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image72.png"
+  },
+  79
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Red x Lucu",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 8,
+   "egp": 416,
+   "img": "/tmp/x/xl/media/image73.png"
+  },
+  80
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium regale x Anthurium magnificum x Anthurium clarinervium",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image74.png"
+  },
+  81
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium RVDP x michelle",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 30,
+   "egp": 1560,
+   "img": "/tmp/x/xl/media/image75.png"
+  },
+  82
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Wendlingeri",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 60,
+   "egp": 3120,
+   "img": "/tmp/x/xl/media/image76.png"
+  },
+  83
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium Zara Michelle",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 16,
+   "egp": 832,
+   "img": "/tmp/x/xl/media/image77.png"
+  },
+  84
+ ],
+ [
+  "HDR",
+  "Begonia",
+  85
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Begonia mocca",
+   "genus": "Begonia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image78.png"
+  },
+  86
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Begonia Red silver",
+   "genus": "Begonia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image79.png"
+  },
+  87
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Begonia rex (mother plant)",
+   "genus": "Begonia",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": "/tmp/x/xl/media/image80.png"
+  },
+  88
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Begonia Polka Dot",
+   "genus": "Begonia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image81.png"
+  },
+  89
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Begonia (mixed varieties)",
+   "genus": "Begonia",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image82.png"
+  },
+  90
+ ],
+ [
+  "HDR",
+  "Caladium",
+  91
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Caladium 'Scarlet Mary'",
+   "genus": "Caladium",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image83.png"
+  },
+  92
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Caladium 'Sizzle'",
+   "genus": "Caladium",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image84.png"
+  },
+  93
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Caladium 'White Christmas'",
+   "genus": "Caladium",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image85.png"
+  },
+  94
+ ],
+ [
+  "HDR",
+  "Calathea",
+  95
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea 'Beauty star'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image86.png"
+  },
+  96
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea bella",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image87.png"
+  },
+  97
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea 'C054'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image88.png"
+  },
+  98
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea 'C063'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image89.png"
+  },
+  99
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea concinna 'Freddie'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image90.png"
+  },
+  100
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea crocata",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image91.png"
+  },
+  101
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea elliptica 'Vittata'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image92.png"
+  },
+  102
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea Gandersii",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image93.png"
+  },
+  103
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea 'Green Beauty'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image94.png"
+  },
+  104
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea lancifolia",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image95.png"
+  },
+  105
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea majestica",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image96.png"
+  },
+  106
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea makoyana",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image97.png"
+  },
+  107
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea medallion V2",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image98.png"
+  },
+  108
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea Northern light",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image99.png"
+  },
+  109
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea orbifolia",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image100.png"
+  },
+  110
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea ornata 'Sanderiana'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image101.png"
+  },
+  111
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea picturata 'Crimson'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image102.png"
+  },
+  112
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea 'Purple Rainbow'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image103.png"
+  },
+  113
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea roseopicta 'Dottie'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image104.png"
+  },
+  114
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea roseopicta 'Medaillon'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image105.png"
+  },
+  115
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea roseopicta 'Rosy'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image106.png"
+  },
+  116
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea 'Rosy'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image107.png"
+  },
+  117
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea veitchiana",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image108.png"
+  },
+  118
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea warscewiczii",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image109.png"
+  },
+  119
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Calathea 'Water color'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image110.png"
+  },
+  120
+ ],
+ [
+  "HDR",
+  "Christia",
+  121
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Christia obcordata",
+   "genus": "Christia",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image111.png"
+  },
+  122
+ ],
+ [
+  "HDR",
+  "Cordyline",
+  123
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Cordyline australis 'Red Sensation'",
+   "genus": "Cordyline",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image112.png"
+  },
+  124
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Cordyline australis 'Red Star'",
+   "genus": "Cordyline",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image113.png"
+  },
+  125
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Cordyline 'Chocolate Queen'",
+   "genus": "Cordyline",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image114.png"
+  },
+  126
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Cordyline 'Giant Blizzard'",
+   "genus": "Cordyline",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image115.png"
+  },
+  127
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Cordyline 'Pink Champion'",
+   "genus": "Cordyline",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image116.png"
+  },
+  128
+ ],
+ [
+  "HDR",
+  "Ctenanthe",
+  129
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ctenanthe 'Cloud Brocade'",
+   "genus": "Calathea",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image117.png"
+  },
+  130
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ctenanthe setosa",
+   "genus": "Ctenanthe",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image118.png"
+  },
+  131
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ctenanthe setosa 'Grey Star'",
+   "genus": "Ctenanthe",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image119.png"
+  },
+  132
+ ],
+ [
+  "HDR",
+  "Curcuma",
+  133
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Curcuma 'CU20-49'",
+   "genus": "Curcuma",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image120.png"
+  },
+  134
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Curcuma hybrida 'Red Torch'",
+   "genus": "Curcuma",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image121.png"
+  },
+  135
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Curcuma 'Shadow'",
+   "genus": "Curcuma",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image122.png"
+  },
+  136
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Curcuma 'Sisto'",
+   "genus": "Curcuma",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image123.png"
+  },
+  137
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Curcuma 'Sublime'",
+   "genus": "Curcuma",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image124.png"
+  },
+  138
+ ],
+ [
+  "HDR",
+  "Dieffenbachia",
+  139
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Dieffenbachia 'Tropic Marianne'",
+   "genus": "Dieffenbachia",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image125.png"
+  },
+  140
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Dieffenbachia 'Sublime'",
+   "genus": "Dieffenbachia",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image126.png"
+  },
+  141
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Dieffenbachia 'Avocado'",
+   "genus": "Dieffenbachia",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image127.png"
+  },
+  142
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Dieffenbachia maculata 'Tropical tiki'",
+   "genus": "Dieffenbachia",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image128.png"
+  },
+  143
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Dieffenbachia 'Sterling'",
+   "genus": "Dieffenbachia",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image129.png"
+  },
+  144
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Dieffenbachia 'White Blizzard'",
+   "genus": "Dieffenbachia",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image130.png"
+  },
+  145
+ ],
+ [
+  "HDR",
+  "Domesticum",
+  146
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron domesticum",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image131.png"
+  },
+  147
+ ],
+ [
+  "HDR",
+  "Dracaena",
+  148
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Dracaena Golden Heart",
+   "genus": "Dracaena",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image132.png"
+  },
+  149
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Dracaena reflexa 'Variegata'",
+   "genus": "Dracaena",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image133.png"
+  },
+  150
+ ],
+ [
+  "HDR",
+  "Ficus",
+  151
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ficus benghalensis Audrey",
+   "genus": "Ficus",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image134.png"
+  },
+  152
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ficus elastica Burgundy",
+   "genus": "Ficus",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image135.png"
+  },
+  153
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ficus elastica 'Ruby'",
+   "genus": "Ficus",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image136.png"
+  },
+  154
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ficus Elastica 'Shivereana'",
+   "genus": "Ficus",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image137.png"
+  },
+  155
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ficus elastica 'Tineke'",
+   "genus": "Ficus",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image138.png"
+  },
+  156
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ficus lyrata",
+   "genus": "Ficus",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image139.png"
+  },
+  157
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ficus lyrata 'Bambino'",
+   "genus": "Ficus",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image140.png"
+  },
+  158
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Ficus lyrata cv.",
+   "genus": "Ficus",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image141.png"
+  },
+  159
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Florida Beauty' x mayoi",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 45,
+   "egp": 2340,
+   "img": "/tmp/x/xl/media/image142.png"
+  },
+  161
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron gloriosum 'Dark Form'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image143.png"
+  },
+  162
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya sp. (Haderasium)",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 40,
+   "egp": 2080,
+   "img": "/tmp/x/xl/media/image144.png"
+  },
+  163
+ ],
+ [
+  "HDR",
+  "Hoya",
+  164
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya australis Lisa",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image145.png"
+  },
+  165
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya bencalensis splash",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 45,
+   "egp": 2340,
+   "img": "/tmp/x/xl/media/image146.png"
+  },
+  166
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya black cat",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image147.png"
+  },
+  167
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya carnosa Madara snow angel",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 300,
+   "egp": 15600,
+   "img": "/tmp/x/xl/media/image148.png"
+  },
+  168
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya caudata",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image149.png"
+  },
+  169
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya crassipetiolata variegata",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image150.png"
+  },
+  170
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya Kapuas",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image151.png"
+  },
+  171
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya latifolia Sarawak silver",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 200,
+   "egp": 10400,
+   "img": "/tmp/x/xl/media/image152.png"
+  },
+  172
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya mitrata kapuas silver",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image153.png"
+  },
+  173
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya sigillatis splash",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 16,
+   "egp": 832,
+   "img": "/tmp/x/xl/media/image154.png"
+  },
+  174
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Hoya sp. kapuas",
+   "genus": "Hoya",
+   "pkg": 1,
+   "usd": 45,
+   "egp": 2340,
+   "img": "/tmp/x/xl/media/image155.png"
+  },
+  175
+ ],
+ [
+  "HDR",
+  "Jewel",
+  176
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Jewel orchid Cystorchis",
+   "genus": "Jewel orchid",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image156.png"
+  },
+  177
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Jewel orchid (green)",
+   "genus": "Jewel orchid",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image157.png"
+  },
+  178
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Jewel orchid (red)",
+   "genus": "Jewel orchid",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image158.png"
+  },
+  179
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Jewel orchid 'Jose Buono'",
+   "genus": "Jewel orchid",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image159.png"
+  },
+  180
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Jewel orchid 'Koreaseus'",
+   "genus": "Jewel orchid",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image160.png"
+  },
+  181
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Maranta leuconeura 'Erythrophylla'",
+   "genus": "Maranta",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image161.png"
+  },
+  182
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Maranta Leuconeura 'Marisela'",
+   "genus": "Maranta",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image162.png"
+  },
+  183
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Jewel orchid 'Mega Sperma'",
+   "genus": "Jewel orchid",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image163.png"
+  },
+  184
+ ],
+ [
+  "HDR",
+  "Monstera",
+  185
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera adansonii",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image164.png"
+  },
+  186
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera adansonii Albo variegata",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": "/tmp/x/xl/media/image165.png"
+  },
+  187
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera adansonii jepang variegata",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": "/tmp/x/xl/media/image166.png"
+  },
+  188
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera Albo variegata",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": "/tmp/x/xl/media/image167.png"
+  },
+  189
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera aurea variegata",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": "/tmp/x/xl/media/image168.png"
+  },
+  190
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera Creme Brulee",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image169.png"
+  },
+  191
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera Creme Brulee variegata",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image170.png"
+  },
+  192
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera deliciosa albo",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image171.png"
+  },
+  193
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera deliciosa legacy",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image172.png"
+  },
+  194
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera Deliciosa Variegata",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image173.png"
+  },
+  195
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera deliciosa",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 8,
+   "egp": 416,
+   "img": "/tmp/x/xl/media/image174.png"
+  },
+  196
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera Marmorata",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image175.png"
+  },
+  197
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera karstenianum 'Peru'",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 3,
+   "egp": 156,
+   "img": "/tmp/x/xl/media/image176.png"
+  },
+  198
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera Thai Constellation",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image177.png"
+  },
+  199
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera Variegata",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 8,
+   "egp": 416,
+   "img": "/tmp/x/xl/media/image178.png"
+  },
+  200
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera 'White monster'",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 95,
+   "egp": 4940,
+   "img": "/tmp/x/xl/media/image179.png"
+  },
+  201
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Monstera White Tiger",
+   "genus": "Monstera",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image180.png"
+  },
+  202
+ ],
+ [
+  "HDR",
+  "Phillodendron",
+  203
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Florida Beauty' x joepii",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image181.png"
+  },
+  204
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Florida Beauty' x tortum",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 80,
+   "egp": 4160,
+   "img": "/tmp/x/xl/media/image182.png"
+  },
+  205
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Florida beauty x bobce",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 95,
+   "egp": 4940,
+   "img": "/tmp/x/xl/media/image183.png"
+  },
+  206
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron brandtianum",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image184.png"
+  },
+  207
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron ciapense",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 18,
+   "egp": 936,
+   "img": "/tmp/x/xl/media/image185.png"
+  },
+  208
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron dark lord",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image186.png"
+  },
+  209
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron domesticum",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image187.png"
+  },
+  210
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Florida Beauty'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image188.png"
+  },
+  211
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron majesticum",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image189.png"
+  },
+  212
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron pink Congo",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image190.png"
+  },
+  213
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron pink Princess",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 18,
+   "egp": 936,
+   "img": "/tmp/x/xl/media/image191.png"
+  },
+  214
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron strawberry shake",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image192.png"
+  },
+  215
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Whipple way",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 6,
+   "egp": 312,
+   "img": "/tmp/x/xl/media/image193.png"
+  },
+  216
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron white knight",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image194.png"
+  },
+  217
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Anderson",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image195.png"
+  },
+  218
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Ciapense",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image196.png"
+  },
+  219
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Dark lord",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image197.png"
+  },
+  220
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron hederaceum",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image198.png"
+  },
+  221
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron domesticum",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image199.png"
+  },
+  222
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Erubescens",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image200.png"
+  },
+  223
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Florida Beauty'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image201.png"
+  },
+  224
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Mamey",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 3,
+   "egp": 156,
+   "img": "/tmp/x/xl/media/image202.png"
+  },
+  225
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Pink Princess Marble",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image203.png"
+  },
+  226
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Strawberry Shake",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image204.png"
+  },
+  227
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron white knight",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image205.png"
+  },
+  228
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron white Wizard",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image206.png"
+  },
+  229
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Whipple Way",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image207.png"
+  },
+  230
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Florida Beauty",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 3,
+   "egp": 156,
+   "img": "/tmp/x/xl/media/image208.png"
+  },
+  231
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Pink Princess' galaxy",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 3,
+   "egp": 156,
+   "img": "/tmp/x/xl/media/image209.png"
+  },
+  232
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Pink Princess' marble",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 75,
+   "egp": 3900,
+   "img": "/tmp/x/xl/media/image210.png"
+  },
+  233
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Ring of Fire'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image211.png"
+  },
+  234
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron billitiae variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 100,
+   "egp": 5200,
+   "img": "/tmp/x/xl/media/image212.png"
+  },
+  235
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron atabapoense pink variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 200,
+   "egp": 10400,
+   "img": "/tmp/x/xl/media/image213.png"
+  },
+  236
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Atom'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image214.png"
+  },
+  237
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Birkin'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 30,
+   "egp": 1560,
+   "img": "/tmp/x/xl/media/image215.png"
+  },
+  238
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Birkin variegated",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 65,
+   "egp": 3380,
+   "img": "/tmp/x/xl/media/image216.png"
+  },
+  239
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Burle Marx' Albo Variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 45,
+   "egp": 2340,
+   "img": "/tmp/x/xl/media/image217.png"
+  },
+  240
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron caramel Marble variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 95,
+   "egp": 4940,
+   "img": "/tmp/x/xl/media/image218.png"
+  },
+  241
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron domesticum variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image219.png"
+  },
+  242
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron dragon variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 75,
+   "egp": 3900,
+   "img": "/tmp/x/xl/media/image220.png"
+  },
+  243
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'El Choco Red'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image221.png"
+  },
+  244
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Florida Ghost'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 3,
+   "egp": 156,
+   "img": "/tmp/x/xl/media/image222.png"
+  },
+  245
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron giganteum 'blizzard'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image223.png"
+  },
+  246
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Gloriosum'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 75,
+   "egp": 3900,
+   "img": "/tmp/x/xl/media/image224.png"
+  },
+  247
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Gloriosum variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 75,
+   "egp": 3900,
+   "img": "/tmp/x/xl/media/image225.png"
+  },
+  248
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron gloriosum tricolor variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 75,
+   "egp": 3900,
+   "img": "/tmp/x/xl/media/image226.png"
+  },
+  249
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron goeldii",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image227.png"
+  },
+  250
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron goeldii spp. variegated",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 150,
+   "egp": 7800,
+   "img": "/tmp/x/xl/media/image228.png"
+  },
+  251
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Green Congo hybrid",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 95,
+   "egp": 4940,
+   "img": "/tmp/x/xl/media/image229.png"
+  },
+  252
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Imperial Green'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 8,
+   "egp": 416,
+   "img": "/tmp/x/xl/media/image230.png"
+  },
+  253
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Imperial Red'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 12,
+   "egp": 624,
+   "img": "/tmp/x/xl/media/image231.png"
+  },
+  254
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron micans variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 45,
+   "egp": 2340,
+   "img": "/tmp/x/xl/media/image232.png"
+  },
+  255
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Moonlight'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image233.png"
+  },
+  256
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Painted Lady'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image234.png"
+  },
+  257
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron panduriforme",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image235.png"
+  },
+  258
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron paraiso verde",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image236.png"
+  },
+  259
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron pink princess variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image237.png"
+  },
+  260
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Prince of Orange",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 30,
+   "egp": 1560,
+   "img": "/tmp/x/xl/media/image238.png"
+  },
+  261
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Red Congo Variegated",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 85,
+   "egp": 4420,
+   "img": "/tmp/x/xl/media/image239.png"
+  },
+  262
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Red sun",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image240.png"
+  },
+  263
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Ring of Fire'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image241.png"
+  },
+  264
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron tortum",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image242.png"
+  },
+  265
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron tortum variegata",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 200,
+   "egp": 10400,
+   "img": "/tmp/x/xl/media/image243.png"
+  },
+  266
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron Verrucosum 'Incensi'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": "/tmp/x/xl/media/image244.png"
+  },
+  267
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron warscewiczii",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image245.png"
+  },
+  268
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'White Knight'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image246.png"
+  },
+  269
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'White Princess'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 10,
+   "egp": 520,
+   "img": "/tmp/x/xl/media/image247.png"
+  },
+  270
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron 'Xanadu'",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image248.png"
+  },
+  271
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Pilea / Peperomia sp.",
+   "genus": "Pilea",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image249.png"
+  },
+  273
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron sp. (Prakensis)",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image250.png"
+  },
+  274
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Philodendron sp. (Purbesi, Jabar)",
+   "genus": "Philodendron",
+   "pkg": 1,
+   "usd": 9,
+   "egp": 468,
+   "img": "/tmp/x/xl/media/image251.png"
+  },
+  275
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Radermachera sinica golden leaves",
+   "genus": "Radermachera",
+   "pkg": 1,
+   "usd": 40,
+   "egp": 2080,
+   "img": "/tmp/x/xl/media/image252.png"
+  },
+  276
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Anthurium 'Red Tiger' x 'Zara Michelle'",
+   "genus": "Anthurium",
+   "pkg": 1,
+   "usd": 35,
+   "egp": 1820,
+   "img": "/tmp/x/xl/media/image253.png"
+  },
+  277
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Rhaphidophora sp.",
+   "genus": "Rhaphidophora",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image254.png"
+  },
+  278
+ ],
+ [
+  "HDR",
+  "Scindapsus",
+  279
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Darkcloud auera marble",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image255.png"
+  },
+  280
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Moonlight cloud marble",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 25,
+   "egp": 1300,
+   "img": "/tmp/x/xl/media/image256.png"
+  },
+  281
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Rubicon GOG",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 20,
+   "egp": 1040,
+   "img": "/tmp/x/xl/media/image257.png"
+  },
+  282
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Schismatoglottis wallichii",
+   "genus": "Schismatoglottis",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image258.png"
+  },
+  283
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Bakupati",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 60,
+   "egp": 3120,
+   "img": "/tmp/x/xl/media/image259.png"
+  },
+  284
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Blue Albo",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image260.png"
+  },
+  285
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Blue Salaka",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image261.png"
+  },
+  286
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Creamblue",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image262.png"
+  },
+  287
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Macan",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 51,
+   "egp": 2652,
+   "img": "/tmp/x/xl/media/image263.png"
+  },
+  288
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Moonlight",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image264.png"
+  },
+  289
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Moonlight Albo",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image265.png"
+  },
+  290
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Silverstar",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 8,
+   "egp": 416,
+   "img": "/tmp/x/xl/media/image266.png"
+  },
+  291
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Scindapsus Treubii",
+   "genus": "Scindapsus",
+   "pkg": 1,
+   "usd": 5,
+   "egp": 260,
+   "img": "/tmp/x/xl/media/image267.png"
+  },
+  292
+ ],
+ [
+  "HDR",
+  "Spathiphyllum",
+  293
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Spathiphyllum 'Falco'",
+   "genus": "Spathiphyllum",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image268.png"
+  },
+  294
+ ],
+ [
+  "HDR",
+  "Sygnioum",
+  295
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Syngonium Tri Color",
+   "genus": "Syngonium",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image269.png"
+  },
+  296
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Syngonium Green Splash",
+   "genus": "Syngonium",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image270.png"
+  },
+  297
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Syngonium Milk Confetti",
+   "genus": "Syngonium",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image271.png"
+  },
+  298
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Syngonium 'Milk Confetti'",
+   "genus": "Syngonium",
+   "pkg": 1,
+   "usd": 4,
+   "egp": 208,
+   "img": "/tmp/x/xl/media/image272.png"
+  },
+  299
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Syngonium 'Pink'",
+   "genus": "Syngonium",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image273.png"
+  },
+  300
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Syngonium podophyllum 'neon'",
+   "genus": "Syngonium",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image274.png"
+  },
+  301
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Syngonium podophyllum'White Butterfly",
+   "genus": "Syngonium",
+   "pkg": 1,
+   "usd": 15,
+   "egp": 780,
+   "img": "/tmp/x/xl/media/image275.png"
+  },
+  302
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Syngonium three King",
+   "genus": "Syngonium",
+   "pkg": 1,
+   "usd": 3,
+   "egp": 156,
+   "img": "/tmp/x/xl/media/image276.png"
+  },
+  303
+ ],
+ [
+  "HDR",
+  "Tetra",
+  304
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Tacca integrifolia",
+   "genus": "Tacca",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image277.png"
+  },
+  305
+ ],
+ [
+  "HDR",
+  "Tetra",
+  306
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Rhaphidophora tetrasperma",
+   "genus": "Rhaphidophora",
+   "pkg": 1,
+   "usd": 7,
+   "egp": 364,
+   "img": "/tmp/x/xl/media/image278.png"
+  },
+  307
+ ],
+ [
+  "HDR",
+  "Watermelon",
+  308
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Peperomia argyreia (Watermelon)",
+   "genus": "Peperomia",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image279.png"
+  },
+  309
+ ],
+ [
+  "HDR",
+  "Xanthosoma",
+  310
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Xanthosoma lindenii",
+   "genus": "Xanthosoma",
+   "pkg": 1,
+   "usd": 75,
+   "egp": 3900,
+   "img": "/tmp/x/xl/media/image280.png"
+  },
+  311
+ ],
+ [
+  "HDR",
+  "zamya",
+  312
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Zamioculcas zamiifolia (black)",
+   "genus": "Zamioculcas",
+   "pkg": 1,
+   "usd": null,
+   "egp": null,
+   "img": "/tmp/x/xl/media/image281.png"
+  },
+  313
+ ],
+ [
+  "HDR",
+  "Zebrina",
+  314
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Zebrina Pink",
+   "genus": "Tradescantia zebrina",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image282.png"
+  },
+  315
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Zebrina purple",
+   "genus": "Tradescantia zebrina",
+   "pkg": 1,
+   "usd": 3,
+   "egp": 156,
+   "img": "/tmp/x/xl/media/image283.png"
+  },
+  316
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Zebrina Silver",
+   "genus": "Tradescantia zebrina",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image284.png"
+  },
+  317
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Zebrina White",
+   "genus": "Tradescantia zebrina",
+   "pkg": 1,
+   "usd": 2,
+   "egp": 104,
+   "img": "/tmp/x/xl/media/image285.png"
+  },
+  318
+ ],
+ [
+  "ITEM",
+  {
+   "name": "Alocasia baginda 'Dragon Scale' aurea",
+   "genus": "Alocasia",
+   "pkg": 1,
+   "usd": 85,
+   "egp": 4420,
+   "img": "/tmp/x/xl/media/image286.png"
+  },
+  319
+ ]
+]

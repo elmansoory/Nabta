@@ -22,7 +22,7 @@ LIGHT = colors.HexColor("#F2F6F1")
 ACCENT = colors.HexColor("#C9A227")
 GREY = colors.HexColor("#5C6B60")
 
-rows = json.load(open("/home/user/workspace/data.json"))
+rows = json.load(open("/home/user/workspace/data_clean.json"))
 items = []
 cur = None
 for kind, payload, rn in rows:
@@ -154,7 +154,7 @@ def card(x, y, d):
         c.setFillColor(GREY); c.setFont("EN", 8)
         c.drawCentredString(x + CW / 2, y + CH - ih / 2, "no photo")
     # name (wrap 2 lines)
-    name = d["name"].replace("\n", " "); name = name[:1].upper() + name[1:]
+    name = d["name"].replace("\n", " "); 
     c.setFillColor(colors.HexColor("#22332A"))
     fs = 8.2
     c.setFont("ENB", fs)
@@ -234,7 +234,7 @@ while i < len(flat):
         if shade:
             c.setFillColor(colors.HexColor("#FAFBFA")); c.rect(M, y - 2 * mm, W - 2 * M, 6 * mm, fill=1, stroke=0)
         shade = not shade
-        nm = d["name"].replace("\n", " "); nm = nm[:1].upper() + nm[1:]
+        nm = d["name"].replace("\n", " "); 
         while pdfmetrics.stringWidth(nm, "EN", 8) > 88 * mm:
             nm = nm[:-2]
         c.setFillColor(colors.HexColor("#22332A")); c.setFont("EN", 8)

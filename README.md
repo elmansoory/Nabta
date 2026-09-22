@@ -13,13 +13,17 @@ A formatted catalog of tropical and rare houseplants, generated automatically fr
 | `source/Book1-version-1.xlsx` | الملف الأصلي كما تم تسليمه |
 | `scripts/build_catalog.py` | سكربت توليد الكاتالوج (reportlab + Pillow) |
 | `scripts/data.json` | البيانات المستخرجة من الملف الأصلي |
+| `scripts/data_clean.json` | البيانات بعد تحسين أسماء النباتات والأجناس |
+| `scripts/clean_names.py` | سكربت تصحيح الأسماء (اختصارات، أخطاء إملائية، تنسيق الأصناف) |
+| `docs/name_changes.md` | سجل كامل بكل اسم تم تصحيحه (قبل/بعد) |
 | `scripts/imgmap.json` | خريطة الصور المضمّنة داخل الخلايا إلى صفوفها |
 
 ## التشغيل / Usage
 
 ```bash
 pip install reportlab pillow openpyxl arabic_reshaper python-bidi
-python scripts/build_catalog.py
+python scripts/clean_names.py   # تصحيح الأسماء
+python scripts/build_catalog.py  # توليد الكاتالوج
 ```
 
 السكربت يقرأ `scripts/data.json` والصور المستخرجة، ويُنتج ملف PDF في مجلد العمل.
@@ -28,4 +32,5 @@ python scripts/build_catalog.py
 
 - سعر التحويل المستخدم: 1 دولار = 52 جنيه مصري.
 - 286 صورة تم استخراجها من الصور المضمّنة داخل خلايا Excel (in-cell images).
+- تم تصحيح 121 اسمًا: توحيد الأجناس (Philodendron، Scindapsus، Syngonium، Aglaonema)، تصحيح الأخطاء الإملائية، ووضع أسماء الأصناف بين علامتي تنصيص.
 - الأصناف التي كانت أسعارها مرتبطة بملف خارجي غير متوفر تظهر باسم "on request".
