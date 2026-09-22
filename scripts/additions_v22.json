@@ -4,1210 +4,1335 @@
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 25.0,
-  "hi": 25.0
+  "hi": 25.0,
+  "img": "v22_photos/p01_01.jpg"
  },
  {
   "name": "Alocasia 'Cuprea'",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 10.0,
-  "hi": 35.0
+  "hi": 35.0,
+  "img": "v22_photos/p01_09.jpg"
  },
  {
   "name": "Alocasia 'Gageana' Albo Variegata",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 160.0,
-  "hi": 160.0
+  "hi": 160.0,
+  "img": "v22_photos/p01_13.jpg"
  },
  {
   "name": "Alocasia 'Hilo Beauty'",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 30.0,
-  "hi": 30.0
+  "hi": 30.0,
+  "img": "v22_photos/p02_02.jpg"
  },
  {
   "name": "Alocasia 'Mickey Mouse'",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 40.0,
-  "hi": 40.0
+  "hi": 40.0,
+  "img": "v22_photos/p02_13.jpg"
  },
  {
   "name": "Alocasia 'Serendipity' Variegata",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 95.0,
-  "hi": 95.0
+  "hi": 95.0,
+  "img": "v22_photos/p03_08.jpg"
  },
  {
   "name": "Alocasia bisma",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 6.0,
-  "hi": 12.0
+  "hi": 12.0,
+  "img": "v22_photos/p01_04.jpg"
  },
  {
   "name": "Alocasia cuprea 'Aurea / Caramel Latte Variegata'",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 130.0,
-  "hi": 130.0
+  "hi": 130.0,
+  "img": "v22_photos/p01_10.jpg"
  },
  {
   "name": "Alocasia gageana 'Aurea' Variegata",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 65.0,
-  "hi": 85.0
+  "hi": 85.0,
+  "img": "v22_photos/p01_14.jpg"
  },
  {
   "name": "Alocasia golden bone",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 7.0,
-  "hi": 13.0
+  "hi": 50.0,
+  "img": "v22_photos/p01_16.jpg"
  },
  {
   "name": "Alocasia longiloba",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 7.0,
-  "hi": 40.0
+  "hi": 40.0,
+  "img": "v22_photos/p02_07.jpg"
  },
  {
   "name": "Alocasia longiloba silver",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 8.0,
-  "hi": 8.0
+  "hi": 8.0,
+  "img": null
  },
  {
   "name": "Alocasia low rider",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 25.0,
-  "hi": 25.0
+  "hi": 25.0,
+  "img": "v22_photos/p02_10.jpg"
  },
  {
   "name": "Alocasia melo",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 40.0,
-  "hi": 40.0
+  "hi": 40.0,
+  "img": "v22_photos/p02_12.jpg"
  },
  {
   "name": "Alocasia micholitziana 'Frydek'",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 50.0,
-  "hi": 50.0
+  "hi": 50.0,
+  "img": null
  },
  {
   "name": "Alocasia nebula",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 45.0,
-  "hi": 45.0
+  "hi": 45.0,
+  "img": "v22_photos/p03_00.jpg"
  },
  {
   "name": "Alocasia regal shield",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 20.0,
-  "hi": 20.0
+  "hi": 20.0,
+  "img": null
  },
  {
   "name": "Alocasia reginula 'Black Velvet Pink Variegata'",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 110.0,
-  "hi": 110.0
+  "hi": 110.0,
+  "img": "v22_photos/p03_04.jpg"
  },
  {
   "name": "Alocasia reginula 'Black Velvet'",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 8.0,
-  "hi": 22.0
+  "hi": 22.0,
+  "img": "v22_photos/p03_03.jpg"
+ },
+ {
+  "name": "Alocasia silver dragon",
+  "genus": "Alocasia",
+  "pkg": 1,
+  "lo": 8.0,
+  "hi": 10.0,
+  "img": "v22_photos/p14_08.jpg"
  },
  {
   "name": "Alocasia venom",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 15.0,
-  "hi": 15.0
+  "hi": 15.0,
+  "img": null
  },
  {
   "name": "Alocasia wentii",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 10.0,
-  "hi": 20.0
+  "hi": 20.0,
+  "img": "v22_photos/p03_09.jpg"
  },
  {
   "name": "Alocasia x chantrieri 'Pink Variegata'",
   "genus": "Alocasia",
   "pkg": 1,
   "lo": 280.0,
-  "hi": 280.0
+  "hi": 280.0,
+  "img": "v22_photos/p01_00.jpg"
  },
  {
   "name": "Anthurium 'Aurea variegata'",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 320.0,
-  "hi": 320.0
+  "hi": 320.0,
+  "img": "v22_photos/p03_12.jpg"
  },
  {
   "name": "Anthurium 'Pink Vein'",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 95.0,
-  "hi": 95.0
+  "hi": 95.0,
+  "img": "v22_photos/p04_12.jpg"
  },
  {
   "name": "Anthurium 'Purple Vein'",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 140.0,
-  "hi": 140.0
+  "hi": 140.0,
+  "img": "v22_photos/p04_13.jpg"
  },
  {
   "name": "Anthurium 'Red Crystal'",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 55.0,
-  "hi": 55.0
+  "hi": 55.0,
+  "img": "v22_photos/p04_14.jpg"
  },
  {
   "name": "Anthurium 'Red Crystallinum'",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 65.0,
-  "hi": 65.0
+  "hi": 65.0,
+  "img": "v22_photos/p04_15.jpg"
  },
  {
   "name": "Anthurium 'Silver Blush'",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 50.0,
-  "hi": 50.0
+  "hi": 50.0,
+  "img": "v22_photos/p04_16.jpg"
+ },
+ {
+  "name": "Anthurium black emerald x zara michelle",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p06_01.jpg"
+ },
+ {
+  "name": "Anthurium bloody night x dp",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p06_02.jpg"
+ },
+ {
+  "name": "Anthurium carla original",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 66.0,
+  "hi": 66.0,
+  "img": "v22_photos/p06_09.jpg"
+ },
+ {
+  "name": "Anthurium clarinervium",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p07_00.jpg"
+ },
+ {
+  "name": "Anthurium clarinervium kos magani",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p07_01.jpg"
+ },
+ {
+  "name": "Anthurium clarinervium 🔁 kos x magni",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p07_02.jpg"
+ },
+ {
+  "name": "Anthurium crystallinum",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p07_06.jpg"
  },
  {
   "name": "Anthurium crystallinum 'Dorayaki'",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 45.0,
-  "hi": 45.0
+  "hi": 45.0,
+  "img": "v22_photos/p04_04.jpg"
+ },
+ {
+  "name": "Anthurium docblok",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 30.0,
+  "hi": 30.0,
+  "img": "v22_photos/p07_09.jpg"
+ },
+ {
+  "name": "Anthurium dorayaki",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p07_10.jpg"
  },
  {
   "name": "Anthurium hybrid",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 45.0,
-  "hi": 45.0
+  "hi": 45.0,
+  "img": "v22_photos/p04_06.jpg"
+ },
+ {
+  "name": "Anthurium kos rc x Angel Dreams",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 21.0,
+  "hi": 21.0,
+  "img": "v22_photos/p09_08.jpg"
+ },
+ {
+  "name": "Anthurium luxurians",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p09_16.jpg"
+ },
+ {
+  "name": "Anthurium michelle x Angel Dreams",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 48.0,
+  "hi": 48.0,
+  "img": "v22_photos/p10_01.jpg"
  },
  {
   "name": "Anthurium modeanum",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 15.0,
-  "hi": 15.0
+  "hi": 15.0,
+  "img": "v22_photos/p04_07.jpg"
+ },
+ {
+  "name": "Anthurium papi x Magni",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 51.0,
+  "hi": 51.0,
+  "img": "v22_photos/p12_08.jpg"
  },
  {
   "name": "Anthurium papillilaminum",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 110.0,
-  "hi": 220.0
+  "hi": 220.0,
+  "img": "v22_photos/p04_09.jpg"
  },
  {
   "name": "Anthurium papillilaminum hybrid",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 80.0,
-  "hi": 80.0
+  "hi": 80.0,
+  "img": "v22_photos/p04_11.jpg"
  },
  {
   "name": "Anthurium Purple Tiger",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 36.0,
-  "hi": 36.0
+  "hi": 36.0,
+  "img": "v22_photos/p00_10.jpg"
+ },
+ {
+  "name": "Anthurium purple tiger x Michelle",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 36.0,
+  "hi": 36.0,
+  "img": "v22_photos/p13_11.jpg"
+ },
+ {
+  "name": "Anthurium red Ghost x Luxury",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 36.0,
+  "hi": 36.0,
+  "img": "v22_photos/p13_12.jpg"
+ },
+ {
+  "name": "Anthurium red Tiger",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p13_13.jpg"
+ },
+ {
+  "name": "Anthurium red Tiger Original Purple Serat Cakep Semi Induk",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 156.0,
+  "hi": 156.0,
+  "img": "v22_photos/p13_14.jpg"
+ },
+ {
+  "name": "Anthurium red Tiger Purple Character Purple Serat Teran",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": 10.0,
+  "hi": 10.0,
+  "img": "v22_photos/p13_15.jpg"
+ },
+ {
+  "name": "Anthurium rVDP x Michelle",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p14_02.jpg"
  },
  {
   "name": "Anthurium veitchii",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": "v22_photos/p00_13.jpg"
  },
  {
   "name": "Anthurium waroc",
   "genus": "Anthurium",
   "pkg": 1,
   "lo": 12.0,
-  "hi": 12.0
- },
- {
-  "name": "Anthurium waroc 15$",
-  "genus": "Anthurium",
-  "pkg": 1,
-  "lo": 15.0,
-  "hi": 15.0
+  "hi": 15.0,
+  "img": "v22_photos/p05_01.jpg"
  },
  {
   "name": "Anthurium warocqueanum",
   "genus": "Anthurium",
   "pkg": 1,
-  "lo": 75.0,
-  "hi": 75.0
+  "lo": 5.0,
+  "hi": 75.0,
+  "img": "v22_photos/p03_11.jpg"
+ },
+ {
+  "name": "Anthurium zara michelle",
+  "genus": "Anthurium",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p15_14.jpg"
+ },
+ {
+  "name": "Lotus mini",
+  "genus": "Aquatic Plants",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p09_14.jpg"
+ },
+ {
+  "name": "Lotus mix isi 10",
+  "genus": "Aquatic Plants",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p09_15.jpg"
+ },
+ {
+  "name": "Water Lily",
+  "genus": "Aquatic Plants",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p15_13.jpg"
  },
  {
   "name": "Ardisia sp. 'Turtle Back' Pink / Purple",
   "genus": "Ardisia",
   "pkg": 1,
   "lo": 40.0,
-  "hi": 40.0
+  "hi": 40.0,
+  "img": "v22_photos/p05_03.jpg"
  },
  {
   "name": "Begonia 'Black Fang'",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 40.0,
-  "hi": 40.0
+  "hi": 40.0,
+  "img": "v22_photos/p05_08.jpg"
  },
  {
   "name": "Begonia 'Brevirimosa'",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 45.0,
-  "hi": 45.0
+  "hi": 45.0,
+  "img": "v22_photos/p05_09.jpg"
  },
  {
   "name": "Begonia bipinnatifida",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 7.0,
-  "hi": 7.0
+  "hi": 7.0,
+  "img": "v22_photos/p05_07.jpg"
  },
  {
   "name": "Begonia brevirimosa subsp. exotica",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 50.0,
-  "hi": 50.0
+  "hi": 50.0,
+  "img": "v22_photos/p05_10.jpg"
  },
  {
   "name": "Begonia darthvaderiana",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 65.0,
-  "hi": 65.0
+  "hi": 65.0,
+  "img": "v22_photos/p05_11.jpg"
  },
  {
   "name": "Begonia excoteka",
   "genus": "Begonia",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": "v22_photos/p06_00.jpg"
  },
  {
   "name": "Begonia ferox",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 65.0,
-  "hi": 65.0
+  "hi": 65.0,
+  "img": "v22_photos/p05_12.jpg"
  },
  {
   "name": "Begonia sillensis",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 55.0,
-  "hi": 55.0
+  "hi": 55.0,
+  "img": "v22_photos/p05_13.jpg"
  },
  {
   "name": "Begonia timika",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 90.0,
-  "hi": 90.0
+  "hi": 90.0,
+  "img": "v22_photos/p05_14.jpg"
  },
  {
   "name": "Begonia walet",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 8.0,
-  "hi": 8.0
+  "hi": 8.0,
+  "img": "v22_photos/p05_15.jpg"
  },
  {
   "name": "Cane-type Angel Wing Begonia hybrid",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 35.0,
-  "hi": 35.0
+  "hi": 35.0,
+  "img": "v22_photos/p06_06.jpg"
  },
  {
   "name": "Micro-terrarium collector Begonia",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 60.0,
-  "hi": 60.0
+  "hi": 60.0,
+  "img": "v22_photos/p10_03.jpg"
  },
  {
   "name": "Micro/Miniature Terrarium Begonia",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 45.0,
-  "hi": 45.0
+  "hi": 45.0,
+  "img": "v22_photos/p10_02.jpg"
  },
  {
   "name": "Rhizomatous Begonia",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 15.0,
-  "hi": 15.0
+  "hi": 15.0,
+  "img": "v22_photos/p14_00.jpg"
  },
  {
   "name": "Rhizomatous Bullate Begonia",
   "genus": "Begonia",
   "pkg": 1,
   "lo": 30.0,
-  "hi": 30.0
+  "hi": 30.0,
+  "img": "v22_photos/p14_01.jpg"
  },
  {
   "name": "Caladium bicolor",
   "genus": "Caladium",
   "pkg": 1,
   "lo": 35.0,
-  "hi": 35.0
+  "hi": 35.0,
+  "img": "v22_photos/p06_04.jpg"
  },
  {
   "name": "Caladium tikus",
   "genus": "Caladium",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p06_05.jpg"
  },
  {
   "name": "Carica dieng / Mountain Papaya",
   "genus": "Carica",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": "v22_photos/p06_07.jpg"
  },
  {
   "name": "Carica papaya 'Dwarf'",
   "genus": "Carica",
   "pkg": 1,
   "lo": 35.0,
-  "hi": 35.0
+  "hi": 35.0,
+  "img": "v22_photos/p06_08.jpg"
  },
  {
   "name": "Cercestis mirabilis",
   "genus": "Cercestis",
   "pkg": 1,
   "lo": 6.0,
-  "hi": 6.0
+  "hi": 6.0,
+  "img": "v22_photos/p06_10.jpg"
+ },
+ {
+  "name": "Ceropegia string of heart",
+  "genus": "Ceropegia",
+  "pkg": 1,
+  "lo": null,
+  "hi": null,
+  "img": "v22_photos/p14_10.jpg"
  },
  {
   "name": "Ceropegia woodii 'Variegata'",
   "genus": "Ceropegia",
   "pkg": 1,
   "lo": 20.0,
-  "hi": 55.0
+  "hi": 55.0,
+  "img": "v22_photos/p06_11.jpg"
  },
  {
   "name": "Cocos nucifera var. rubescens",
   "genus": "Cocos",
   "pkg": 1,
   "lo": 75.0,
-  "hi": 75.0
+  "hi": 75.0,
+  "img": "v22_photos/p07_03.jpg"
  },
  {
   "name": "Colocasia esculenta 'Mojito'",
   "genus": "Colocasia",
   "pkg": 1,
   "lo": 35.0,
-  "hi": 35.0
+  "hi": 35.0,
+  "img": "v22_photos/p07_04.jpg"
  },
  {
   "name": "Colocasia Mujito",
   "genus": "Colocasia",
   "pkg": 1,
   "lo": 10.0,
-  "hi": 10.0
- },
- {
-  "name": "Colocasia Mujito12$",
-  "genus": "Colocasia",
-  "pkg": 1,
-  "lo": 12.0,
-  "hi": 12.0
+  "hi": 12.0,
+  "img": "v22_photos/p07_05.jpg"
  },
  {
   "name": "Dionaea muscipula",
   "genus": "Dionaea",
   "pkg": 1,
   "lo": 16.0,
-  "hi": 18.0
+  "hi": 18.0,
+  "img": "v22_photos/p07_07.jpg"
  },
  {
   "name": "Dracaena fragrans cane cuttings",
   "genus": "Dracaena",
   "pkg": 1,
   "lo": 18.0,
-  "hi": 18.0
+  "hi": 18.0,
+  "img": "v22_photos/p07_11.jpg"
  },
  {
   "name": "Dracaena sanderiana",
   "genus": "Dracaena",
   "pkg": 1,
   "lo": 22.0,
-  "hi": 22.0
+  "hi": 22.0,
+  "img": "v22_photos/p07_12.jpg"
  },
  {
   "name": "Drimiopsis maculata",
   "genus": "Drimiopsis",
   "pkg": 1,
   "lo": 20.0,
-  "hi": 20.0
+  "hi": 20.0,
+  "img": "v22_photos/p07_13.jpg"
  },
  {
   "name": "Echeveria agavoides varieties – Aquamarine, Bronze Beauty, Christmas, Corderoyi, Ebony, Miranda, Frank Reinelt, Prolifera, Romeo, Lipstick, Pulidonis, Romeo Rubin",
   "genus": "Echeveria",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": null
+ },
+ {
+  "name": "Episcia smoke white",
+  "genus": "Episcia",
+  "pkg": 1,
+  "lo": 6.0,
+  "hi": 6.0,
+  "img": "v22_photos/p07_14.jpg"
  },
  {
   "name": "Euphorbia francoisii",
   "genus": "Euphorbia",
   "pkg": 1,
   "lo": 8.0,
-  "hi": 8.0
+  "hi": 8.0,
+  "img": "v22_photos/p07_15.jpg"
  },
  {
   "name": "Euphorbia hedyotoides",
   "genus": "Euphorbia",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p08_00.jpg"
  },
  {
   "name": "Graptophyllum pictum 'Variegata'",
   "genus": "Graptophyllum",
   "pkg": 1,
   "lo": 20.0,
-  "hi": 20.0
+  "hi": 20.0,
+  "img": "v22_photos/p08_03.jpg"
  },
  {
   "name": "Homalomena rubescens 'Variegata'",
   "genus": "Homalomena",
   "pkg": 1,
   "lo": 80.0,
-  "hi": 80.0
+  "hi": 80.0,
+  "img": "v22_photos/p08_05.jpg"
  },
  {
   "name": "Hoya carnosa 'Compacta Variegata'",
   "genus": "Hoya",
   "pkg": 1,
   "lo": 28.0,
-  "hi": 50.0
+  "hi": 50.0,
+  "img": "v22_photos/p08_06.jpg"
  },
  {
   "name": "Hoya compacta variegata",
   "genus": "Hoya",
   "pkg": 1,
   "lo": 21.0,
-  "hi": 21.0
+  "hi": 21.0,
+  "img": "v22_photos/p08_08.jpg"
  },
  {
   "name": "Hoya kerii splash",
   "genus": "Hoya",
   "pkg": 1,
   "lo": 12.0,
-  "hi": 12.0
+  "hi": 12.0,
+  "img": "v22_photos/p08_09.jpg"
  },
  {
   "name": "Hoya kerii variegata",
   "genus": "Hoya",
   "pkg": 1,
   "lo": 13.0,
-  "hi": 13.0
+  "hi": 13.0,
+  "img": "v22_photos/p08_10.jpg"
  },
  {
   "name": "Hoya kerrii 'Variegata'",
   "genus": "Hoya",
   "pkg": 1,
   "lo": 60.0,
-  "hi": 60.0
+  "hi": 60.0,
+  "img": "v22_photos/p08_11.jpg"
  },
  {
   "name": "Hoya latifolia",
   "genus": "Hoya",
   "pkg": 1,
   "lo": 55.0,
-  "hi": 55.0
+  "hi": 55.0,
+  "img": "v22_photos/p08_12.jpg"
  },
  {
   "name": "Hoya obovata variegata",
   "genus": "Hoya",
   "pkg": 1,
   "lo": 11.0,
-  "hi": 11.0
+  "hi": 11.0,
+  "img": "v22_photos/p08_13.jpg"
  },
  {
   "name": "Hoya wayetii 'Variegata'",
   "genus": "Hoya",
   "pkg": 1,
   "lo": 25.0,
-  "hi": 25.0
+  "hi": 25.0,
+  "img": "v22_photos/p08_14.jpg"
+ },
+ {
+  "name": "Jewel Cystorchis",
+  "genus": "Jewel orchid",
+  "pkg": 1,
+  "lo": 2.0,
+  "hi": 5.0,
+  "img": "v22_photos/p09_00.jpg"
  },
  {
   "name": "Labisia pumila",
   "genus": "Labisia",
   "pkg": 1,
   "lo": 45.0,
-  "hi": 45.0
+  "hi": 45.0,
+  "img": "v22_photos/p09_09.jpg"
  },
  {
   "name": "Labisia pumila 'Pink'",
   "genus": "Labisia",
   "pkg": 1,
   "lo": 45.0,
-  "hi": 45.0
+  "hi": 45.0,
+  "img": "v22_photos/p09_11.jpg"
  },
  {
   "name": "Monstera adansoni mint",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 9.0,
-  "hi": 9.0
+  "hi": 9.0,
+  "img": null
  },
  {
   "name": "Monstera Adansoni Variegata",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 9.0,
-  "hi": 9.0
+  "hi": 9.0,
+  "img": "v22_photos/p10_06.jpg"
  },
  {
   "name": "Monstera adansonii 'Aurea' Variegata",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 55.0,
-  "hi": 85.0
+  "hi": 85.0,
+  "img": "v22_photos/p10_10.jpg"
  },
  {
   "name": "Monstera adansonii variegata",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p16_03.jpg"
  },
  {
   "name": "Monstera adansori mint green",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p10_13.jpg"
  },
  {
   "name": "Monstera adensoni albo varigata",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 10.0,
-  "hi": 10.0
+  "hi": 10.0,
+  "img": "v22_photos/p10_14.jpg"
  },
  {
   "name": "Monstera aurea",
   "genus": "Monstera",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": "v22_photos/p10_15.jpg"
  },
  {
   "name": "Monstera deliciosa 'Albo Borsigiana'",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 40.0,
-  "hi": 110.0
+  "hi": 110.0,
+  "img": "v22_photos/p11_02.jpg"
  },
  {
   "name": "Monstera deliciosa 'Aurea' Variegata",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 95.0,
-  "hi": 95.0
+  "hi": 95.0,
+  "img": "v22_photos/p11_08.jpg"
  },
  {
   "name": "Monstera varigata",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 20.0,
-  "hi": 20.0
+  "hi": 20.0,
+  "img": "v22_photos/p11_12.jpg"
  },
  {
   "name": "Monstera white Tiger marbel",
   "genus": "Monstera",
   "pkg": 1,
   "lo": 12.0,
-  "hi": 12.0
+  "hi": 12.0,
+  "img": "v22_photos/p11_16.jpg"
  },
  {
   "name": "Musa 'Ae Ae'",
   "genus": "Musa",
   "pkg": 1,
   "lo": 130.0,
-  "hi": 180.0
+  "hi": 180.0,
+  "img": "v22_photos/p12_02.jpg"
  },
  {
   "name": "Musa 'Florida' variegata",
   "genus": "Musa",
   "pkg": 1,
   "lo": 90.0,
-  "hi": 120.0
+  "hi": 120.0,
+  "img": "v22_photos/p12_04.jpg"
  },
  {
   "name": "Musa 'Florida' Yellow variegata",
   "genus": "Musa",
   "pkg": 1,
   "lo": 140.0,
-  "hi": 140.0
+  "hi": 140.0,
+  "img": "v22_photos/p12_06.jpg"
  },
  {
   "name": "Musa 'NoNo'",
   "genus": "Musa",
   "pkg": 1,
   "lo": 50.0,
-  "hi": 50.0
+  "hi": 50.0,
+  "img": "v22_photos/p12_07.jpg"
  },
  {
   "name": "Musa acuminata 'Red Dacca'",
   "genus": "Musa",
   "pkg": 1,
   "lo": 50.0,
-  "hi": 50.0
+  "hi": 50.0,
+  "img": "v22_photos/p12_00.jpg"
  },
  {
   "name": "Musa acuminata 'Siam Ruby'",
   "genus": "Musa",
   "pkg": 1,
   "lo": 75.0,
-  "hi": 75.0
+  "hi": 75.0,
+  "img": "v22_photos/p12_01.jpg"
+ },
+ {
+  "name": "Musa banana variegata",
+  "genus": "Musa",
+  "pkg": 1,
+  "lo": 15.0,
+  "hi": 15.0,
+  "img": "v22_photos/p05_06.jpg"
  },
  {
   "name": "Aurea",
   "genus": "Other / hybrids",
   "pkg": 1,
   "lo": 15.0,
-  "hi": 15.0
+  "hi": 15.0,
+  "img": "v22_photos/p05_04.jpg"
  },
  {
   "name": "Aurea variegata",
   "genus": "Other / hybrids",
   "pkg": 1,
   "lo": 20.0,
-  "hi": 20.0
- },
- {
-  "name": "Banana variegata",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 15.0,
-  "hi": 15.0
- },
- {
-  "name": "Black emerald x zara michelle",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Bloody night x dp",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Burle Marx variegata",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 10.0,
-  "hi": 13.0
- },
- {
-  "name": "Carla original",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 66.0,
-  "hi": 66.0
+  "hi": 20.0,
+  "img": "v22_photos/p05_05.jpg"
  },
  {
   "name": "Christmas",
   "genus": "Other / hybrids",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
- },
- {
-  "name": "Clarinervium",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Clarinervium kos magani",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Clarinervium 🔁 kos x magni",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Crystallinum",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Docblok",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 30.0,
-  "hi": 30.0
- },
- {
-  "name": "Dorayaki",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Episcia smoke white",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 6.0,
-  "hi": 6.0
+  "hi": 5.0,
+  "img": "v22_photos/p06_15.jpg"
  },
  {
   "name": "Fortile Drak From variegata Orange",
   "genus": "Other / hybrids",
   "pkg": 1,
   "lo": 96.0,
-  "hi": 96.0
- },
- {
-  "name": "Gigas",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 8.0,
-  "hi": 8.0
- },
- {
-  "name": "Golden bonee",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 50.0,
-  "hi": 50.0
- },
- {
-  "name": "Jewel Cystorchis",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 2.0,
-  "hi": 5.0
- },
- {
-  "name": "Kos rc x Angel Dreams",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 21.0,
-  "hi": 21.0
- },
- {
-  "name": "Lotus mini",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Lotus mix isi 10",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Luxurians",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
+  "hi": 96.0,
+  "img": "v22_photos/p08_01.jpg"
  },
  {
   "name": "Mahkota",
   "genus": "Other / hybrids",
   "pkg": 1,
   "lo": null,
-  "hi": null
- },
- {
-  "name": "Michelle x Angel Dreams",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 48.0,
-  "hi": 48.0
- },
- {
-  "name": "Milk Confetti tricolor",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 5.0,
-  "hi": 5.0
- },
- {
-  "name": "Papi x Magni",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 51.0,
-  "hi": 51.0
- },
- {
-  "name": "Paraiso Verde",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 10.0,
-  "hi": 10.0
- },
- {
-  "name": "Pink princess galaxy",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 15.0,
-  "hi": 15.0
- },
- {
-  "name": "Purple tiger x Michelle",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 36.0,
-  "hi": 36.0
- },
- {
-  "name": "Red Ghost x Luxury",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 36.0,
-  "hi": 36.0
- },
- {
-  "name": "Red Tiger",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Red Tiger Original Purple Serat Cakep Semi Induk",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 156.0,
-  "hi": 156.0
- },
- {
-  "name": "Red Tiger Purple Character Purple Serat Teran",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 10.0,
-  "hi": 10.0
- },
- {
-  "name": "RVDP x Michelle",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Silver dragon",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 8.0,
-  "hi": 10.0
- },
- {
-  "name": "String of heart",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Veitchii",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Warocqueanum",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 5.0,
-  "hi": 5.0
- },
- {
-  "name": "Water Lily",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Zara michelle",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": null,
-  "hi": null
- },
- {
-  "name": "Zebrina nanouk",
-  "genus": "Other / hybrids",
-  "pkg": 1,
-  "lo": 4.0,
-  "hi": 4.0
+  "hi": null,
+  "img": "v22_photos/p10_00.jpg"
  },
  {
   "name": "Peperomia argyreia 'Variegata'",
   "genus": "Peperomia",
   "pkg": 1,
   "lo": 30.0,
-  "hi": 30.0
+  "hi": 30.0,
+  "img": "v22_photos/p12_10.jpg"
  },
  {
   "name": "Peperomia belimbing",
   "genus": "Peperomia",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p12_14.jpg"
  },
  {
   "name": "Peperomia prostrata",
   "genus": "Peperomia",
   "pkg": 1,
   "lo": 22.0,
-  "hi": 22.0
+  "hi": 22.0,
+  "img": "v22_photos/p12_12.jpg"
  },
  {
   "name": "Philodendron 'Caramel Marble'",
   "genus": "Philodendron",
   "pkg": 1,
   "lo": 130.0,
-  "hi": 130.0
+  "hi": 130.0,
+  "img": "v22_photos/p13_00.jpg"
  },
  {
   "name": "Philodendron 'Green Congo' variegata",
   "genus": "Philodendron",
   "pkg": 1,
   "lo": 15.0,
-  "hi": 15.0
+  "hi": 15.0,
+  "img": null
  },
  {
   "name": "Philodendron billietiae",
   "genus": "Philodendron",
   "pkg": 1,
   "lo": 150.0,
-  "hi": 150.0
+  "hi": 150.0,
+  "img": "v22_photos/p12_15.jpg"
+ },
+ {
+  "name": "Philodendron burle Marx variegata",
+  "genus": "Philodendron",
+  "pkg": 1,
+  "lo": 10.0,
+  "hi": 13.0,
+  "img": "v22_photos/p06_03.jpg"
  },
  {
   "name": "Philodendron Congo hybrid",
   "genus": "Philodendron",
   "pkg": 1,
   "lo": 14.0,
-  "hi": 14.0
+  "hi": 14.0,
+  "img": null
  },
  {
   "name": "Philodendron erubescens 'Strawberry Shake'",
   "genus": "Philodendron",
   "pkg": 1,
   "lo": 75.0,
-  "hi": 75.0
+  "hi": 75.0,
+  "img": "v22_photos/p13_01.jpg"
  },
  {
   "name": "Philodendron gigas",
   "genus": "Philodendron",
   "pkg": 1,
   "lo": 7.0,
-  "hi": 35.0
+  "hi": 35.0,
+  "img": "v22_photos/p13_02.jpg"
  },
  {
   "name": "Philodendron hederaceum var. hederaceum 'Micans' Variegata",
   "genus": "Philodendron",
   "pkg": 1,
   "lo": 75.0,
-  "hi": 75.0
+  "hi": 75.0,
+  "img": "v22_photos/p13_05.jpg"
+ },
+ {
+  "name": "Philodendron paraiso Verde",
+  "genus": "Philodendron",
+  "pkg": 1,
+  "lo": 10.0,
+  "hi": 10.0,
+  "img": "v22_photos/p12_09.jpg"
+ },
+ {
+  "name": "Philodendron pink princess galaxy",
+  "genus": "Philodendron",
+  "pkg": 1,
+  "lo": 15.0,
+  "hi": 15.0,
+  "img": "v22_photos/p13_09.jpg"
  },
  {
   "name": "Philodendron True Pink Micans",
   "genus": "Philodendron",
   "pkg": 1,
   "lo": 20.0,
-  "hi": 20.0
+  "hi": 20.0,
+  "img": "v22_photos/p13_06.jpg"
  },
  {
   "name": "Pilea peperomioides",
   "genus": "Pilea",
   "pkg": 1,
   "lo": 15.0,
-  "hi": 15.0
+  "hi": 15.0,
+  "img": "v22_photos/p13_08.jpg"
  },
  {
   "name": "Plinia cauliflora",
   "genus": "Plinia",
   "pkg": 1,
   "lo": 65.0,
-  "hi": 65.0
+  "hi": 65.0,
+  "img": "v22_photos/p13_10.jpg"
  },
  {
   "name": "Schismatoglottis calyptrata 'Silver Stripe'",
   "genus": "Schismatoglottis",
   "pkg": 1,
   "lo": 25.0,
-  "hi": 25.0
+  "hi": 25.0,
+  "img": "v22_photos/p14_06.jpg"
  },
  {
   "name": "Scindapsus hederaceus 'Variegata'",
   "genus": "Scindapsus",
   "pkg": 1,
   "lo": 70.0,
-  "hi": 70.0
+  "hi": 70.0,
+  "img": "v22_photos/p14_07.jpg"
  },
  {
   "name": "Sonerila sp. 'Purple White Vein'",
   "genus": "Sonerila",
   "pkg": 1,
   "lo": 28.0,
-  "hi": 28.0
+  "hi": 28.0,
+  "img": "v22_photos/p14_09.jpg"
  },
  {
   "name": "ID Syngonium Dwarf Princess/Mini Christmas",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": "v22_photos/p08_15.jpg"
  },
  {
   "name": "Syngonium Deep Pink Splash",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p14_11.jpg"
  },
  {
   "name": "Syngonium Liliter",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": "v22_photos/p14_13.jpg"
  },
  {
   "name": "Syngonium Mango Alution",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": "v22_photos/p14_14.jpg"
+ },
+ {
+  "name": "Syngonium milk Confetti tricolor",
+  "genus": "Syngonium",
+  "pkg": 1,
+  "lo": 5.0,
+  "hi": 5.0,
+  "img": "v22_photos/p10_04.jpg"
  },
  {
   "name": "Syngonium Mojito",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": 7.0,
-  "hi": 7.0
+  "hi": 7.0,
+  "img": "v22_photos/p14_15.jpg"
  },
  {
   "name": "Syngonium Panda",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p15_00.jpg"
  },
  {
   "name": "Syngonium Pink on Pink",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": 7.0,
-  "hi": 7.0
+  "hi": 7.0,
+  "img": "v22_photos/p15_02.jpg"
  },
  {
   "name": "Syngonium Pink Panda",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p15_04.jpg"
  },
  {
   "name": "Syngonium podophyllum 'Red Spot Tricolor'",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": 45.0,
-  "hi": 45.0
+  "hi": 45.0,
+  "img": "v22_photos/p15_06.jpg"
  },
  {
   "name": "Syngonium redspot 3 colour",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": 5.0,
-  "hi": 5.0
+  "hi": 5.0,
+  "img": "v22_photos/p15_07.jpg"
  },
  {
   "name": "Syngonium strawberry ice",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": null,
-  "hi": null
+  "hi": null,
+  "img": "v22_photos/p15_08.jpg"
  },
  {
   "name": "Syngonium tricolor",
   "genus": "Syngonium",
   "pkg": 1,
   "lo": 4.0,
-  "hi": 4.0
+  "hi": 4.0,
+  "img": "v22_photos/p15_09.jpg"
  },
  {
   "name": "Live Cushion Moss / Pillow Moss",
   "genus": "Terrarium & moss",
   "pkg": 1,
   "lo": 16.0,
-  "hi": 16.0
+  "hi": 16.0,
+  "img": "v22_photos/p09_12.jpg"
  },
  {
   "name": "Live Sheet Moss / Carpet Moss",
   "genus": "Terrarium & moss",
   "pkg": 1,
   "lo": 15.0,
-  "hi": 15.0
+  "hi": 15.0,
+  "img": "v22_photos/p09_13.jpg"
  },
  {
   "name": "Thaumatophyllum warscewiczii",
   "genus": "Thaumatophyllum",
   "pkg": 1,
   "lo": 50.0,
-  "hi": 50.0
+  "hi": 50.0,
+  "img": "v22_photos/p15_10.jpg"
+ },
+ {
+  "name": "Tradescantia zebrina nanouk",
+  "genus": "Tradescantia",
+  "pkg": 1,
+  "lo": 4.0,
+  "hi": 4.0,
+  "img": "v22_photos/p15_15.jpg"
  }
 ]

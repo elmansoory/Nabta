@@ -178,9 +178,17 @@ def card(x, y, d):
         c.drawString(x + 4 * mm, ty, ln); ty -= 4 * mm
     # price row
     usd, egp = d.get("usd"), d.get("egp")
-    c.setFillColor(GREEN); c.setFont("ENB", 10)
-    c.drawString(x + 4 * mm, y + 5.5 * mm, f"${usd:g}" if isinstance(usd, (int, float)) else "on request")
-    if isinstance(egp, (int, float)):
+    c.setFillColor(GREEN)
+    if d.get("usd_text"):
+        c.setFont("ENB", 9 if len(d["usd_text"]) > 7 else 10)
+        c.drawString(x + 4 * mm, y + 5.5 * mm, d["usd_text"])
+    else:
+        c.setFont("ENB", 10)
+        c.drawString(x + 4 * mm, y + 5.5 * mm, f"${usd:g}" if isinstance(usd, (int, float)) else "on request")
+    if d.get("egp_text"):
+        c.setFillColor(GREY); c.setFont("EN", 7.2)
+        c.drawString(x + 4 * mm, y + 2 * mm, d["egp_text"])
+    elif isinstance(egp, (int, float)):
         c.setFillColor(GREY); c.setFont("EN", 7.8)
         c.drawString(x + 4 * mm, y + 2 * mm, f"{egp:,.0f} EGP")
     pkg = d.get("pkg")
@@ -250,6 +258,54 @@ while i < len(flat):
         c.drawRightString(W - M - 1.5 * mm, y, f"{e:,.0f}" if isinstance(e, (int, float)) else "-")
         y -= 6 * mm
         i += 1
+    footer(); c.showPage(); page += 1
+
+# ---------- new varieties with photos (Price List v22) ----------
+adds_all = json.load(open("/home/user/workspace/additions_v22.json"))
+withpic = [a for a in adds_all if a.get("img")]
+bygen = {}
+for a in withpic:
+    bygen.setdefault(a["genus"], []).append(a)
+
+def new_header(gname, n):
+    c.setFillColor(GREEN); c.rect(0, H - 22 * mm, W, 22 * mm, fill=1, stroke=0)
+    c.setFillColor(colors.white); c.setFont("ENB", 15); c.drawString(M, H - 11 * mm, "New Varieties  ·  " + gname)
+    c.setFillColor(ACCENT); c.setFont("EN", 8)
+    c.drawString(M, H - 17 * mm, "NEW IN PRICE LIST v22")
+    c.setFillColor(ACCENT); c.setFont("EN", 9.5)
+    c.drawRightString(W - M, H - 13 * mm, f"{n} NEW VARIETIES WITH PHOTOS")
+
+c.setFillColor(GREEN); c.rect(0, 0, W, H, fill=1, stroke=0)
+c.setFillColor(colors.white); c.setFont("ENB", 26)
+c.drawCentredString(W / 2, H / 2 + 12 * mm, "NEW VARIETIES")
+c.setFont("ARB", 20); c.drawCentredString(W / 2, H / 2, ar("أصناف جديدة"))
+c.setFillColor(ACCENT); c.setFont("EN", 11)
+c.drawCentredString(W / 2, H / 2 - 14 * mm, f"Price List v22  ·  {len(adds_all)} varieties  ·  {len(withpic)} with photos")
+c.showPage(); page += 1
+
+flow = sorted(withpic, key=lambda d: (d["genus"].lower(), d["name"].lower()))
+idx = 0
+while idx < len(flow):
+    cur_gen = flow[idx]["genus"]
+    new_header(cur_gen, len(flow))
+    top = H - 22 * mm - 8 * mm
+    for r in range(ROWS):
+        for col in range(COLS):
+            if idx >= len(flow):
+                break
+            d = dict(flow[idx])
+            d["img"] = "/home/user/workspace/" + d["img"]
+            lo, hi = d.get("lo"), d.get("hi")
+            if lo is None:
+                d["usd"] = None
+            elif lo == hi:
+                d["usd"], d["egp"] = lo, lo * 52
+            else:
+                d["usd_text"] = f"${lo:g}-${hi:g}"
+                d["egp_text"] = f"{lo*52:,.0f}-{hi*52:,.0f} EGP"
+            d["pkg"] = 1
+            card(M + col * (CW + GAP), top - (r + 1) * CH - r * GAP, d)
+            idx += 1
     footer(); c.showPage(); page += 1
 
 # ---------- appendix: price list v22 additions ----------
