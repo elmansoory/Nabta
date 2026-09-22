@@ -87,7 +87,8 @@ c.drawCentredString(W / 2, H - 126 * mm, ar("نباتات استوائية ون�
 
 bx, by, bw, bh = M + 15 * mm, 75 * mm, W - 2 * (M + 15 * mm), 45 * mm
 c.setFillColor(colors.Color(1, 1, 1, 0.10)); c.roundRect(bx, by, bw, bh, 4 * mm, fill=1, stroke=0)
-stats = [(str(total), "Varieties"), (str(len(order)), "Genera"), ("USD / EGP", "Currencies")]
+extra = len(json.load(open("/home/user/workspace/additions_v22.json")))
+stats = [(str(total), "Photo varieties"), (f"+{extra}", "Price-list additions"), (str(len(order)), "Genera")]
 for i, (v, l) in enumerate(stats):
     x = bx + bw * (i + 0.5) / 3
     c.setFillColor(colors.white); c.setFont("ENB", 20); c.drawCentredString(x, by + 25 * mm, v)
@@ -96,7 +97,7 @@ c.setFillColor(colors.white); c.setFont("EN", 10)
 c.drawCentredString(W / 2, 45 * mm, "Exchange rate applied: 1 USD = 52 EGP")
 c.setFont("AR", 10); c.drawCentredString(W / 2, 36 * mm, ar("سعر التحويل المستخدم: 1 دولار = 52 جنيه"))
 c.setFont("EN", 9); c.setFillColor(colors.Color(1, 1, 1, .7))
-c.drawCentredString(W / 2, 22 * mm, "September 2026")
+c.drawCentredString(W / 2, 22 * mm, "September 2026  ·  incl. Price List v22")
 c.showPage()
 
 # ---------- index ----------
@@ -251,5 +252,57 @@ while i < len(flat):
         i += 1
     footer(); c.showPage(); page += 1
 
+# ---------- appendix: price list v22 additions ----------
+adds = json.load(open("/home/user/workspace/additions_v22.json"))
+acols = [M, M + 98 * mm, M + 136 * mm]
+
+def a_header():
+    c.setFillColor(GREEN); c.rect(0, H - 22 * mm, W, 22 * mm, fill=1, stroke=0)
+    c.setFillColor(colors.white); c.setFont("ENB", 14)
+    c.drawString(M, H - 12 * mm, "Additional Varieties - Price List v22")
+    c.setFillColor(ACCENT); c.setFont("EN", 8)
+    c.drawString(M, H - 18 * mm, "Photos not yet available - prices shown as range where several sizes are listed")
+    c.setFillColor(colors.white); c.setFont("ARB", 12)
+    c.drawRightString(W - M, H - 13 * mm, ar("أصناف إضافية - قائمة 22"))
+
+def a_titles(y):
+    c.setFillColor(LIGHT); c.rect(M, y - 2 * mm, W - 2 * M, 7 * mm, fill=1, stroke=0)
+    c.setFillColor(GREEN); c.setFont("ENB", 8.5)
+    for t, x in zip(["VARIETY", "GENUS", "USD"], acols):
+        c.drawString(x + 1.5 * mm, y, t)
+    c.drawRightString(W - M - 1.5 * mm, y, "EGP")
+
+i = 0
+while i < len(adds):
+    a_header(); y = H - 34 * mm; a_titles(y); y -= 8 * mm; shade = False
+    while i < len(adds) and y > 18 * mm:
+        d = adds[i]
+        if shade:
+            c.setFillColor(colors.HexColor("#FAFBFA")); c.rect(M, y - 2 * mm, W - 2 * M, 6 * mm, fill=1, stroke=0)
+        shade = not shade
+        nm = d["name"]
+        while pdfmetrics.stringWidth(nm, "EN", 8) > 94 * mm:
+            nm = nm[:-2]
+        c.setFillColor(colors.HexColor("#22332A")); c.setFont("EN", 8)
+        c.drawString(acols[0] + 1.5 * mm, y, nm)
+        c.setFillColor(GREY); c.drawString(acols[1] + 1.5 * mm, y, d["genus"][:18])
+        lo, hi = d["lo"], d["hi"]
+        c.setFillColor(colors.HexColor("#22332A"))
+        if lo is None:
+            c.drawString(acols[2] + 1.5 * mm, y, "on request")
+            c.drawRightString(W - M - 1.5 * mm, y, "-")
+        else:
+            if lo == hi:
+                us, eg, fs2 = f"${lo:g}", f"{lo*52:,.0f}", 8
+            else:
+                us, eg, fs2 = f"${lo:g} - ${hi:g}", f"{lo*52:,.0f} - {hi*52:,.0f}", 7
+            c.setFont("EN", fs2)
+            c.drawString(acols[2] + 1.5 * mm, y, us)
+            c.drawRightString(W - M - 1.5 * mm, y, eg)
+            c.setFont("EN", 8)
+        y -= 6 * mm; i += 1
+    footer(); c.showPage(); page += 1
+
 c.save()
+
 print("pages", page)

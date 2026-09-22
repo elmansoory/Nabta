@@ -87,9 +87,10 @@
    "name": "Alocasia 'Helian'",
    "genus": "Alocasia",
    "pkg": 1,
-   "usd": null,
-   "egp": null,
-   "img": "/tmp/x/xl/media/image7.png"
+   "usd": 6.0,
+   "egp": 312.0,
+   "img": "/tmp/x/xl/media/image7.png",
+   "source": "v22"
   },
   10
  ],
@@ -3184,9 +3185,10 @@
    "name": "Scindapsus Darkcloud auera marble",
    "genus": "Scindapsus",
    "pkg": 1,
-   "usd": null,
-   "egp": null,
-   "img": "/tmp/x/xl/media/image255.png"
+   "usd": 10.0,
+   "egp": 520.0,
+   "img": "/tmp/x/xl/media/image255.png",
+   "source": "v22"
   },
   280
  ],
