@@ -43,3 +43,22 @@ python scripts/build_catalog.py  # توليد الكاتالوج
 - تمت مراجعة الأسماء الغامضة: صُنّفت أصناف الهجن (Michelle، Zara Michelle، Papi، Docblok، Dorayaki، Red Tiger) تحت Anthurium، و(Gigas، Paraiso Verde، Pink Princess، Burle Marx) تحت Philodendron، و(Silver Dragon، Golden Bone) تحت Alocasia، وبقيت 5 مدخلات فقط غير محددة.
 - تم تصحيح 121 اسمًا: توحيد الأجناس (Philodendron، Scindapsus، Syngonium، Aglaonema)، تصحيح الأخطاء الإملائية، ووضع أسماء الأصناف بين علامتي تنصيص.
 - الأصناف التي كانت أسعارها مرتبطة بملف خارجي غير متوفر تظهر باسم "on request".
+
+
+## إضافة صورك الخاصة / Adding your own photos
+
+1. سمِّ كل صورة باسم الصنف كما في الكاتالوج، مثل `Alocasia venom.jpg` أو `anthurium_carla_x_bvep.png`.
+2. ضع الصور في `user_photos/` أو في مجلد على Google Drive.
+3. شغّل:
+
+```bash
+python3 scripts/merge_v22.py
+python3 scripts/add_user_photos.py user_photos/        # أو: --drive <folderId>
+python3 scripts/build_catalog.py
+```
+
+- صورك تحل محل صور قائمة 22 والصور المرجعية من ويكيميديا.
+- الأسماء العامة (`WhatsApp Image ...`، `photo_2026-...`، `IMG_1234`) تُتجاهل حتى لا تُربط صورة بصنف خاطئ.
+- الملفات غير المطابقة أو التي تطابق أكثر من صنف تُسجَّل في `user_photos_log.json` ولا تُضاف.
+
+الأصناف التي ما زالت بلا صورة: Alocasia venom، Philodendron 'Green Congo' variegata، Anthurium Carla x Bvep، Anthurium michelle x Zara michelle.
