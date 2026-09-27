@@ -62,3 +62,16 @@ python3 scripts/build_catalog.py
 - الملفات غير المطابقة أو التي تطابق أكثر من صنف تُسجَّل في `user_photos_log.json` ولا تُضاف.
 
 الأصناف التي ما زالت بلا صورة: Alocasia venom، Philodendron 'Green Congo' variegata، Anthurium Carla x Bvep، Anthurium michelle x Zara michelle.
+
+
+## BanrakTonmai Garden / مجموعة بان راك تون ماي
+
+- 310 صنفًا بأسمائها وصورها وأسعارها من [banraktonmaigarden.com](https://www.banraktonmaigarden.com)، مضافة كقسم مستقل في الكاتالوج مجمّعًا حسب الجنس.
+- السعر لكل عرض بالدولار كما في الموقع (في المجموعات "set of 5/10" يشمل السعر المجموعة كاملة)، ومعه ما يعادله بالجنيه (1 دولار = 52 جنيهًا).
+- صور الموقع ملأت 3 أصناف كانت بلا صورة أو بصورة مرجعية: Alocasia venom، Philodendron 'Green Congo' variegata، Alocasia regal shield.
+- التحديث: `python3 scripts/import_brt.py` (أو `--offline` لاستخدام البيانات المحفوظة في `source/banraktonmai/`).
+
+## نسخة بدون أسعار / No-price edition
+
+- `catalog/Plant_Catalog_2026_No_Prices.pdf` و`catalog/Plant_Catalog_2026_No_Prices.xlsx`: نفس الأصناف والصور بدون أي أسعار أو جداول أسعار.
+- البناء: `NOPRICE=1 python3 scripts/build_catalog.py`

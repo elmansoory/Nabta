@@ -65,8 +65,11 @@ def thumb(p):
     return out
 
 W, H = A4
+NOPRICE = os.environ.get("NOPRICE") == "1"
+OUTFILE = "/home/user/workspace/Plant_Catalog_2026_No_Prices.pdf" if NOPRICE else "/home/user/workspace/Plant_Catalog_2026.pdf"
+brt = [b for b in json.load(open("/home/user/workspace/brt/items.json")) if b.get("img")]
 M = 15 * mm
-c = canvas.Canvas("/home/user/workspace/Plant_Catalog_2026.pdf", pagesize=A4)
+c = canvas.Canvas(OUTFILE, pagesize=A4)
 c.setTitle("Plant Catalog / كاتالوج النباتات")
 
 total = len(items)
@@ -81,23 +84,27 @@ c.setFont("ARB", 30); c.drawCentredString(W / 2, H - 90 * mm, ar("كاتالوج
 c.setStrokeColor(ACCENT); c.setLineWidth(1)
 c.line(W / 2 - 40 * mm, H - 100 * mm, W / 2 + 40 * mm, H - 100 * mm)
 c.setFont("EN", 13)
-c.drawCentredString(W / 2, H - 115 * mm, "Tropical & Rare Houseplants  ·  Wholesale Price List")
+c.drawCentredString(W / 2, H - 115 * mm, "Tropical & Rare Houseplants  ·  " + ("Variety Catalog" if NOPRICE else "Wholesale Price List"))
 c.setFont("AR", 12)
-c.drawCentredString(W / 2, H - 126 * mm, ar("نباتات استوائية ونادرة - قائمة أسعار الجملة"))
+c.drawCentredString(W / 2, H - 126 * mm, ar("نباتات استوائية ونادرة - " + ("كاتالوج الأصناف" if NOPRICE else "قائمة أسعار الجملة")))
 
 bx, by, bw, bh = M + 15 * mm, 75 * mm, W - 2 * (M + 15 * mm), 45 * mm
 c.setFillColor(colors.Color(1, 1, 1, 0.10)); c.roundRect(bx, by, bw, bh, 4 * mm, fill=1, stroke=0)
 extra = len(json.load(open("/home/user/workspace/additions_v22.json")))
-stats = [(str(total), "Photo varieties"), (f"+{extra}", "Price-list additions"), (str(len(order)), "Genera")]
+stats = [(str(total), "Photo varieties"), (f"+{extra}", "Price-list v22"), (f"+{len(brt)}", "BanrakTonmai"), (str(len(order)), "Genera")]
 for i, (v, l) in enumerate(stats):
-    x = bx + bw * (i + 0.5) / 3
+    x = bx + bw * (i + 0.5) / 4
     c.setFillColor(colors.white); c.setFont("ENB", 20); c.drawCentredString(x, by + 25 * mm, v)
     c.setFillColor(ACCENT); c.setFont("EN", 10); c.drawCentredString(x, by + 15 * mm, l.upper())
 c.setFillColor(colors.white); c.setFont("EN", 10)
-c.drawCentredString(W / 2, 45 * mm, "Exchange rate applied: 1 USD = 52 EGP")
-c.setFont("AR", 10); c.drawCentredString(W / 2, 36 * mm, ar("سعر التحويل المستخدم: 1 دولار = 52 جنيه"))
+if NOPRICE:
+    c.drawCentredString(W / 2, 45 * mm, "Prices available on request")
+    c.setFont("AR", 10); c.drawCentredString(W / 2, 36 * mm, ar("الأسعار متاحة عند الطلب"))
+else:
+    c.drawCentredString(W / 2, 45 * mm, "Exchange rate applied: 1 USD = 52 EGP")
+    c.setFont("AR", 10); c.drawCentredString(W / 2, 36 * mm, ar("سعر التحويل المستخدم: 1 دولار = 52 جنيه"))
 c.setFont("EN", 9); c.setFillColor(colors.Color(1, 1, 1, .7))
-c.drawCentredString(W / 2, 22 * mm, "September 2026  ·  incl. Price List v22")
+c.drawCentredString(W / 2, 22 * mm, "September 2026  ·  incl. Price List v22 & BanrakTonmai Garden")
 c.showPage()
 
 # ---------- index ----------
@@ -116,7 +123,7 @@ for i, g in enumerate(order):
     c.setStrokeColor(colors.HexColor("#E2E8E2")); c.setLineWidth(.5)
     c.line(x + 2 * mm, yy - 2.5 * mm, x + (W / 2 - M - 6 * mm), yy - 2.5 * mm)
 c.setFont("EN", 8.5); c.setFillColor(GREY)
-c.drawCentredString(W / 2, M, "Prices are per single plant unless a different package size is noted.")
+c.drawCentredString(W / 2, M, "Plants are sold individually unless a set size is noted." if NOPRICE else "Prices are per single plant unless a different package size is noted.")
 c.showPage()
 
 # ---------- cards ----------
@@ -183,6 +190,12 @@ def card(x, y, d):
     for ln in lines:
         c.drawString(x + 4 * mm, ty, ln); ty -= 4 * mm
     # price row
+    pkg = d.get("pkg")
+    if NOPRICE:
+        if isinstance(pkg, (int, float)) and pkg and pkg != 1:
+            c.setFillColor(ACCENT); c.setFont("ENB", 8)
+            c.drawString(x + 4 * mm, y + 4 * mm, d.get("pkg_label") or f"pack of {pkg:g}")
+        return
     usd, egp = d.get("usd"), d.get("egp")
     c.setFillColor(GREEN)
     if d.get("usd_text"):
@@ -200,7 +213,7 @@ def card(x, y, d):
     pkg = d.get("pkg")
     if isinstance(pkg, (int, float)) and pkg and pkg != 1:
         c.setFillColor(ACCENT); c.setFont("ENB", 7.5)
-        c.drawRightString(x + CW - 4 * mm, y + 5.5 * mm, f"pack of {pkg:g}")
+        c.drawRightString(x + CW - 4 * mm, y + 5.5 * mm, d.get("pkg_label") or f"pack of {pkg:g}")
     else:
         c.setFillColor(colors.HexColor("#9AA79D")); c.setFont("EN", 7.5)
         c.drawRightString(x + CW - 4 * mm, y + 5.5 * mm, "per plant")
@@ -220,51 +233,52 @@ for g in order:
                 card(x, y, lst[idx]); idx += 1
         footer(); c.showPage(); page += 1
 
-# ---------- price summary table ----------
-def table_header():
-    c.setFillColor(GREEN); c.rect(0, H - 22 * mm, W, 22 * mm, fill=1, stroke=0)
-    c.setFillColor(colors.white); c.setFont("ENB", 15); c.drawString(M, H - 14 * mm, "Full Price List")
-    c.setFont("ARB", 12); c.drawRightString(W - M, H - 14 * mm, ar("قائمة الأسعار الكاملة"))
+if not NOPRICE:
+    # ---------- price summary table ----------
+    def table_header():
+        c.setFillColor(GREEN); c.rect(0, H - 22 * mm, W, 22 * mm, fill=1, stroke=0)
+        c.setFillColor(colors.white); c.setFont("ENB", 15); c.drawString(M, H - 14 * mm, "Full Price List")
+        c.setFont("ARB", 12); c.drawRightString(W - M, H - 14 * mm, ar("قائمة الأسعار الكاملة"))
 
-cols = [M, M + 92 * mm, M + 130 * mm, M + 152 * mm]
-def col_titles(y):
-    c.setFillColor(LIGHT); c.rect(M, y - 2 * mm, W - 2 * M, 7 * mm, fill=1, stroke=0)
-    c.setFillColor(GREEN); c.setFont("ENB", 8.5)
-    for t, x in zip(["VARIETY", "GENUS", "PACK", "USD"], cols):
-        c.drawString(x + 1.5 * mm, y, t)
-    c.setFillColor(GREEN); c.setFont("ENB", 8.5); c.drawRightString(W - M - 1.5 * mm, y, "EGP")
+    cols = [M, M + 92 * mm, M + 130 * mm, M + 152 * mm]
+    def col_titles(y):
+        c.setFillColor(LIGHT); c.rect(M, y - 2 * mm, W - 2 * M, 7 * mm, fill=1, stroke=0)
+        c.setFillColor(GREEN); c.setFont("ENB", 8.5)
+        for t, x in zip(["VARIETY", "GENUS", "PACK", "USD"], cols):
+            c.drawString(x + 1.5 * mm, y, t)
+        c.setFillColor(GREEN); c.setFont("ENB", 8.5); c.drawRightString(W - M - 1.5 * mm, y, "EGP")
 
-y = 0
-first = True
-i = 0
-flat = [(g, d) for g in order for d in groups[g]]
-while i < len(flat):
-    table_header()
-    y = H - 34 * mm
-    col_titles(y)
-    y -= 8 * mm
-    shade = False
-    while i < len(flat) and y > 18 * mm:
-        g, d = flat[i]
-        if shade:
-            c.setFillColor(colors.HexColor("#FAFBFA")); c.rect(M, y - 2 * mm, W - 2 * M, 6 * mm, fill=1, stroke=0)
-        shade = not shade
-        nm = d["name"].replace("\n", " "); 
-        while pdfmetrics.stringWidth(nm, "EN", 8) > 88 * mm:
-            nm = nm[:-2]
-        c.setFillColor(colors.HexColor("#22332A")); c.setFont("EN", 8)
-        c.drawString(cols[0] + 1.5 * mm, y, nm)
-        c.setFillColor(GREY)
-        c.drawString(cols[1] + 1.5 * mm, y, g[:16])
-        pkg = d.get("pkg")
-        c.drawString(cols[2] + 1.5 * mm, y, f"{pkg:g}" if isinstance(pkg, (int, float)) else "-")
-        u, e = d.get("usd"), d.get("egp")
-        c.setFillColor(colors.HexColor("#22332A"))
-        c.drawString(cols[3] + 1.5 * mm, y, f"${u:g}" if isinstance(u, (int, float)) else "on request")
-        c.drawRightString(W - M - 1.5 * mm, y, f"{e:,.0f}" if isinstance(e, (int, float)) else "-")
-        y -= 6 * mm
-        i += 1
-    footer(); c.showPage(); page += 1
+    y = 0
+    first = True
+    i = 0
+    flat = [(g, d) for g in order for d in groups[g]]
+    while i < len(flat):
+        table_header()
+        y = H - 34 * mm
+        col_titles(y)
+        y -= 8 * mm
+        shade = False
+        while i < len(flat) and y > 18 * mm:
+            g, d = flat[i]
+            if shade:
+                c.setFillColor(colors.HexColor("#FAFBFA")); c.rect(M, y - 2 * mm, W - 2 * M, 6 * mm, fill=1, stroke=0)
+            shade = not shade
+            nm = d["name"].replace("\n", " "); 
+            while pdfmetrics.stringWidth(nm, "EN", 8) > 88 * mm:
+                nm = nm[:-2]
+            c.setFillColor(colors.HexColor("#22332A")); c.setFont("EN", 8)
+            c.drawString(cols[0] + 1.5 * mm, y, nm)
+            c.setFillColor(GREY)
+            c.drawString(cols[1] + 1.5 * mm, y, g[:16])
+            pkg = d.get("pkg")
+            c.drawString(cols[2] + 1.5 * mm, y, f"{pkg:g}" if isinstance(pkg, (int, float)) else "-")
+            u, e = d.get("usd"), d.get("egp")
+            c.setFillColor(colors.HexColor("#22332A"))
+            c.drawString(cols[3] + 1.5 * mm, y, f"${u:g}" if isinstance(u, (int, float)) else "on request")
+            c.drawRightString(W - M - 1.5 * mm, y, f"{e:,.0f}" if isinstance(e, (int, float)) else "-")
+            y -= 6 * mm
+            i += 1
+        footer(); c.showPage(); page += 1
 
 # ---------- new varieties with photos (Price List v22) ----------
 adds_all = json.load(open("/home/user/workspace/additions_v22.json"))
@@ -314,57 +328,103 @@ while idx < len(flow):
             idx += 1
     footer(); c.showPage(); page += 1
 
-# ---------- appendix: price list v22 additions ----------
-adds = json.load(open("/home/user/workspace/additions_v22.json"))
-acols = [M, M + 98 * mm, M + 136 * mm]
+if not NOPRICE:
+    # ---------- appendix: price list v22 additions ----------
+    adds = json.load(open("/home/user/workspace/additions_v22.json"))
+    acols = [M, M + 98 * mm, M + 136 * mm]
 
-def a_header():
-    c.setFillColor(GREEN); c.rect(0, H - 22 * mm, W, 22 * mm, fill=1, stroke=0)
-    c.setFillColor(colors.white); c.setFont("ENB", 14)
-    c.drawString(M, H - 12 * mm, "Additional Varieties - Price List v22")
-    c.setFillColor(ACCENT); c.setFont("EN", 8)
-    c.drawString(M, H - 18 * mm, "Photos not yet available - prices shown as range where several sizes are listed")
-    c.setFillColor(colors.white); c.setFont("ARB", 12)
-    c.drawRightString(W - M, H - 13 * mm, ar("أصناف إضافية - قائمة 22"))
+    def a_header():
+        c.setFillColor(GREEN); c.rect(0, H - 22 * mm, W, 22 * mm, fill=1, stroke=0)
+        c.setFillColor(colors.white); c.setFont("ENB", 14)
+        c.drawString(M, H - 12 * mm, "Additional Varieties - Price List v22")
+        c.setFillColor(ACCENT); c.setFont("EN", 8)
+        c.drawString(M, H - 18 * mm, "Photos not yet available - prices shown as range where several sizes are listed")
+        c.setFillColor(colors.white); c.setFont("ARB", 12)
+        c.drawRightString(W - M, H - 13 * mm, ar("أصناف إضافية - قائمة 22"))
 
-def a_titles(y):
-    c.setFillColor(LIGHT); c.rect(M, y - 2 * mm, W - 2 * M, 7 * mm, fill=1, stroke=0)
-    c.setFillColor(GREEN); c.setFont("ENB", 8.5)
-    for t, x in zip(["VARIETY", "GENUS", "USD"], acols):
-        c.drawString(x + 1.5 * mm, y, t)
-    c.drawRightString(W - M - 1.5 * mm, y, "EGP")
+    def a_titles(y):
+        c.setFillColor(LIGHT); c.rect(M, y - 2 * mm, W - 2 * M, 7 * mm, fill=1, stroke=0)
+        c.setFillColor(GREEN); c.setFont("ENB", 8.5)
+        for t, x in zip(["VARIETY", "GENUS", "USD"], acols):
+            c.drawString(x + 1.5 * mm, y, t)
+        c.drawRightString(W - M - 1.5 * mm, y, "EGP")
 
-i = 0
-while i < len(adds):
-    a_header(); y = H - 34 * mm; a_titles(y); y -= 8 * mm; shade = False
-    while i < len(adds) and y > 18 * mm:
-        d = adds[i]
-        if shade:
-            c.setFillColor(colors.HexColor("#FAFBFA")); c.rect(M, y - 2 * mm, W - 2 * M, 6 * mm, fill=1, stroke=0)
-        shade = not shade
-        nm = d["name"]
-        while pdfmetrics.stringWidth(nm, "EN", 8) > 94 * mm:
-            nm = nm[:-2]
-        c.setFillColor(colors.HexColor("#22332A")); c.setFont("EN", 8)
-        c.drawString(acols[0] + 1.5 * mm, y, nm)
-        c.setFillColor(GREY); c.drawString(acols[1] + 1.5 * mm, y, d["genus"][:18])
-        lo, hi = d["lo"], d["hi"]
-        c.setFillColor(colors.HexColor("#22332A"))
-        if lo is None:
-            c.drawString(acols[2] + 1.5 * mm, y, "on request")
-            c.drawRightString(W - M - 1.5 * mm, y, "-")
-        else:
-            if lo == hi:
-                us, eg, fs2 = f"${lo:g}", f"{lo*52:,.0f}", 8
+    i = 0
+    while i < len(adds):
+        a_header(); y = H - 34 * mm; a_titles(y); y -= 8 * mm; shade = False
+        while i < len(adds) and y > 18 * mm:
+            d = adds[i]
+            if shade:
+                c.setFillColor(colors.HexColor("#FAFBFA")); c.rect(M, y - 2 * mm, W - 2 * M, 6 * mm, fill=1, stroke=0)
+            shade = not shade
+            nm = d["name"]
+            while pdfmetrics.stringWidth(nm, "EN", 8) > 94 * mm:
+                nm = nm[:-2]
+            c.setFillColor(colors.HexColor("#22332A")); c.setFont("EN", 8)
+            c.drawString(acols[0] + 1.5 * mm, y, nm)
+            c.setFillColor(GREY); c.drawString(acols[1] + 1.5 * mm, y, d["genus"][:18])
+            lo, hi = d["lo"], d["hi"]
+            c.setFillColor(colors.HexColor("#22332A"))
+            if lo is None:
+                c.drawString(acols[2] + 1.5 * mm, y, "on request")
+                c.drawRightString(W - M - 1.5 * mm, y, "-")
             else:
-                us, eg, fs2 = f"${lo:g} - ${hi:g}", f"{lo*52:,.0f} - {hi*52:,.0f}", 7
-            c.setFont("EN", fs2)
-            c.drawString(acols[2] + 1.5 * mm, y, us)
-            c.drawRightString(W - M - 1.5 * mm, y, eg)
-            c.setFont("EN", 8)
-        y -= 6 * mm; i += 1
-    footer(); c.showPage(); page += 1
+                if lo == hi:
+                    us, eg, fs2 = f"${lo:g}", f"{lo*52:,.0f}", 8
+                else:
+                    us, eg, fs2 = f"${lo:g} - ${hi:g}", f"{lo*52:,.0f} - {hi*52:,.0f}", 7
+                c.setFont("EN", fs2)
+                c.drawString(acols[2] + 1.5 * mm, y, us)
+                c.drawRightString(W - M - 1.5 * mm, y, eg)
+                c.setFont("EN", 8)
+            y -= 6 * mm; i += 1
+        footer(); c.showPage(); page += 1
 
+# ---------- BanrakTonmai Garden collection ----------
+def brt_header(gname, n):
+    c.setFillColor(GREEN); c.rect(0, H - 22 * mm, W, 22 * mm, fill=1, stroke=0)
+    c.setFillColor(colors.white); c.setFont("ENB", 15); c.drawString(M, H - 11 * mm, "BanrakTonmai  ·  " + gname)
+    c.setFillColor(ACCENT); c.setFont("EN", 8)
+    c.drawString(M, H - 17 * mm, "BANRAKTONMAI GARDEN COLLECTION")
+    c.setFillColor(ACCENT); c.setFont("EN", 9.5)
+    c.drawRightString(W - M, H - 13 * mm, f"{n} VARIETIES")
+
+c.setFillColor(GREEN); c.rect(0, 0, W, H, fill=1, stroke=0)
+c.setFillColor(colors.white); c.setFont("ENB", 24)
+c.drawCentredString(W / 2, H / 2 + 14 * mm, "BANRAKTONMAI GARDEN")
+c.setFont("ARB", 20); c.drawCentredString(W / 2, H / 2 + 1 * mm, ar("مجموعة بان راك تون ماي"))
+c.setFillColor(ACCENT); c.setFont("EN", 11)
+c.drawCentredString(W / 2, H / 2 - 12 * mm, f"{len(brt)} varieties  ·  photos & names from banraktonmaigarden.com")
+if not NOPRICE:
+    c.setFillColor(colors.white); c.setFont("EN", 9)
+    c.drawCentredString(W / 2, H / 2 - 21 * mm, "Prices are per listing: for sets, the price covers the whole set  ·  1 USD = 52 EGP")
+    c.setFont("AR", 9)
+    c.drawCentredString(W / 2, H / 2 - 28 * mm, ar("السعر لكل عرض: في المجموعات يشمل السعر المجموعة كاملة"))
+c.showPage(); page += 1
+
+bflow = sorted(brt, key=lambda d: (d["genus"].lower(), d["name"].lower()))
+bcount = {}
+for b in bflow:
+    bcount[b["genus"]] = bcount.get(b["genus"], 0) + 1
+idx = 0
+while idx < len(bflow):
+    g0 = bflow[idx]["genus"]
+    brt_header(g0, bcount[g0])
+    top = H - 22 * mm - 8 * mm
+    for r in range(ROWS):
+        for col in range(COLS):
+            if idx >= len(bflow) or bflow[idx]["genus"] != g0:
+                break
+            d = dict(bflow[idx])
+            d["img"] = "/home/user/workspace/" + d["img"]
+            if d["pkg"] != 1:
+                d["pkg_label"] = f"set of {d['pkg']}"
+            card(M + col * (CW + GAP), top - (r + 1) * CH - r * GAP, d)
+            idx += 1
+        else:
+            continue
+        break
+    footer(); c.showPage(); page += 1
 
 # ---------- photo credits ----------
 creds = json.load(open("/home/user/workspace/photo_credits.json"))
@@ -374,9 +434,11 @@ c.setFillColor(colors.white); c.setFont("ARB", 12)
 c.drawRightString(W - M, H - 13 * mm, ar("مصادر الصور"))
 ty = H - 34 * mm
 c.setFillColor(GREY); c.setFont("EN", 8.5)
-c.drawString(M, ty, "All product photos are supplied by Nabta / Price List v22. The following reference photos are")
+c.drawString(M, ty, "Catalog photos: Nabta / Price List v22. BanrakTonmai Garden section: names and photos from")
 ty -= 4.5 * mm
-c.drawString(M, ty, "species references from Wikimedia Commons, reused under their respective licences:")
+c.drawString(M, ty, "https://www.banraktonmaigarden.com (BanrakTonmai Garden, Thailand).")
+ty -= 7 * mm
+c.drawString(M, ty, "The following reference photos are species references from Wikimedia Commons, reused under their licences:")
 ty -= 9 * mm
 for n, v in sorted(creds.items()):
     c.setFillColor(colors.HexColor("#22332A")); c.setFont("ENB", 9)

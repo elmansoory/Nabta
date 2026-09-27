@@ -135,8 +135,8 @@
   "pkg": 1,
   "lo": 20.0,
   "hi": 20.0,
-  "img": "ref_photos/alocasia_regal_shield.jpg",
-  "ref": true
+  "img": "brt/img/copy-alocasia-serentipity-variegated-variegated-set-of-10-plants-9721909870868.jpg",
+  "photo_source": "banraktonmai"
  },
  {
   "name": "Alocasia reginula 'Black Velvet Pink Variegata'",
@@ -168,7 +168,8 @@
   "pkg": 1,
   "lo": 15.0,
   "hi": 15.0,
-  "img": null
+  "img": "brt/img/copy-alocasia-ninja-spash-variegated-set-10-pcs-10064187621652.jpg",
+  "photo_source": "banraktonmai"
  },
  {
   "name": "Alocasia wentii",
@@ -1089,7 +1090,8 @@
   "pkg": 1,
   "lo": 15.0,
   "hi": 15.0,
-  "img": null
+  "img": "brt/img/copy-philodendron-florida-beauty-x-bobcee-variegated-1-plant-10064631103764.jpg",
+  "photo_source": "banraktonmai"
  },
  {
   "name": "Philodendron billietiae",
